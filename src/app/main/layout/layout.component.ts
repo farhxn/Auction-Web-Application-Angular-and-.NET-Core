@@ -21,17 +21,18 @@ import { AuthServiceService } from '../service/auth-service.service';
 })
 export class LayoutComponent implements OnInit {
   showInnerHeaderClass = false;
-      dropdownOpen = false;
+      isLogin = false;
 
   constructor(private router: Router,private auth:AuthServiceService) {}
 
 
   checkLogin() {
-    // this.auth.
+    this.isLogin = this.auth.isLoggedIn()
   }
 
 
   ngOnInit(): void {
+    this.checkLogin();
     this.checkRoute(this.router.url);
 
     this.router.events

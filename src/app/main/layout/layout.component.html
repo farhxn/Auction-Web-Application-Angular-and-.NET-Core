@@ -65,9 +65,8 @@
       <div class="ul-header-bottom-right">
         <a routerLink="/auctionVehicle/0"><i class="fa-regular fa-car"></i></a>
         <a routerLink="/"><i class="fa-regular fa-heart"></i></a>
-
-            <a routerLink="/login"><i class="fa-regular fa-user"></i></a>
-            <a routerLink="/login"><i class="fa-light fa-arrow-right-from-bracket"></i></a>
+        <a routerLink="{{isLogin ? '/account' : '/login'}}"><i class="fa-regular fa-user"></i></a>
+        <a *ngIf="isLogin" routerLink="/logout"><i class="fa-light fa-arrow-right-from-bracket"></i></a>
 
         <button class="ul-header-sidebar-opener d-lg-none d-inline-flex">
           <i class="fa-regular fa-bars"></i>
