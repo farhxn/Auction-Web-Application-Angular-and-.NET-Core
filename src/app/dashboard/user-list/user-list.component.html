@@ -1,0 +1,191 @@
+   <div class="container-fluid">
+
+     <div class="row">
+       <div class="col-xl-12">
+         <div class="card">
+           <div class="card-header d-flex justify-content-between align-items-center gap-1">
+             <h4 class="card-title flex-grow-1">All User List</h4>
+
+             <a routerLink="/dashboard/addUser/0" class="btn btn-sm btn-primary">
+               Add User
+             </a>
+
+           </div>
+           <div>
+             <div class="table-responsive">
+               <table class="table align-middle mb-0 table-hover table-centered display" id="myTable">
+                 <thead class="bg-light-subtle">
+                   <tr>
+                     <th>User Name</th>
+                     <th>Email</th>
+                     <th>Phone Number</th>
+                     <th>Role</th>
+                     <th>Action</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+
+                   <ng-container *ngIf="!TableLoaded; else userList">
+                     <tr *ngFor="let skel of skeletonArray">
+                       <td colspan="6">
+                         <ngx-skeleton-loader appearance="line"></ngx-skeleton-loader>
+                       </td>
+                     </tr>
+                   </ng-container>
+
+                   <ng-template #userList>
+                     <tr *ngFor="let user of usersList; let i = index">
+                       <td>
+                         <div class="d-flex align-items-center gap-2">
+                           <a class="text-dark fw-medium fs-15">{{ user.fullName }}</a>
+                         </div>
+
+                       </td>
+                       <td>
+                         <span class="badge p-1 bg-light text-dark fs-14 me-1">
+                           <span
+                             style="color:{{ user.emailConfirmed ? '#28a745' : 'red' }}; font-size:1rem;"
+                             data-bs-toggle="tooltip"
+                             title="{{ user.emailConfirmed ? 'Email confirmed' : 'Email not confirmed' }}">
+                             &#9679;
+                           </span>
+                           {{ user.email }}
+                         </span>
+                       </td>
+
+                       <td>
+                         <span class="badge p-1 bg-light text-dark fs-14 me-1">
+                           <span
+                             style="color:{{ user.phoneNumberConfirmed ? '#28a745' : 'red' }}; font-size:1rem;">&#9679;</span>
+                           {{ user.phoneNumber ?? 'N/A' }}
+                         </span>
+                       </td>
+                       <td> <span
+                           class="badge bg-{{ user.role === 'Admin' ? 'red' : 'indigo' }} ms-2 fs-13">{{ user.role }}</span>
+                       </td>
+
+                       <td>
+                         <div class="d-flex gap-2">
+                           <a href="#!" class="btn btn-soft-cyan btn-sm" (click)="openUserModal(user)"
+                             data-bs-toggle="modal" data-bs-target="#userDetailModal">
+                             <i class="fa-light fa-eye align-middle fs-18"></i>
+                           </a>
+
+                           <a href="/dashboard/addUser/{{ user.id }}" class="btn btn-soft-primary btn-sm">
+                             <i class="fa-light fa-pen-to-square align-middle fs-18"></i>
+                           </a>
+                           <a href="#!" class="btn btn-soft-danger btn-sm">
+                             <i class="fa-light fa-trash align-middle fs-18"></i>
+                           </a>
+                         </div>
+                       </td>
+                     </tr>
+                   </ng-template>
+
+                 </tbody>
+               </table>
+             </div>
+           </div>
+
+         </div>
+       </div>
+
+     </div>
+
+   </div>
+
+   <!-- User Details Modal -->
+<div class="modal fade" id="userDetailModal" tabindex="-1" aria-labelledby="userDetailModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content shadow-lg rounded-4">
+      <!-- Header -->
+      <div class="modal-header bg-gradient-primary text-white rounded-top-4">
+        <h5 class="modal-title" id="userDetailModalLabel">
+          <i class="fa fa-user-circle me-2"></i> {{ selectedUser?.fullName }}
+        </h5>
+        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body px-4 py-3">
+        <div class="row g-4">
+          <!-- Email -->
+          <div class="col-md-6">
+            <label class="form-label text-muted mb-1"><strong>Email</strong></label>
+            <div>
+              <i class="fa fa-envelope me-2 text-secondary"></i>
+              <span [ngClass]="{
+                'text-success fw-semibold': selectedUser?.emailConfirmed,
+                'text-danger fw-semibold': !selectedUser?.emailConfirmed
+              }">
+                {{ selectedUser?.email }}
+              </span>
+              <small
+                class="ms-2 badge"
+                [ngClass]="{
+                  'bg-success-subtle text-success': selectedUser?.emailConfirmed,
+                  'bg-danger-subtle text-danger': !selectedUser?.emailConfirmed
+                }"
+              >
+                {{ selectedUser?.emailConfirmed ? 'Verified' : 'Unverified' }}
+              </small>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="col-md-6">
+            <label class="form-label text-muted mb-1"><strong>Phone Number</strong></label>
+            <div>
+              <i class="fa fa-phone me-2 text-secondary"></i>
+              <span [ngClass]="{
+                'text-success fw-semibold': selectedUser?.phoneNumberConfirmed,
+                'text-danger fw-semibold': !selectedUser?.phoneNumberConfirmed
+              }">
+                {{ selectedUser?.phoneNumber ?? 'N/A' }}
+              </span>
+              <small
+                class="ms-2 badge"
+                [ngClass]="{
+                  'bg-success-subtle text-success': selectedUser?.phoneNumberConfirmed,
+                  'bg-danger-subtle text-danger': !selectedUser?.phoneNumberConfirmed
+                }"
+              >
+                {{ selectedUser?.phoneNumberConfirmed ? 'Verified' : 'Unverified' }}
+              </small>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Role -->
+        <div class="mb-3">
+          <label class="form-label text-muted"><strong>Role</strong></label>
+          <div>
+            <span
+              class="badge px-3 py-2 rounded-pill"
+              [ngClass]="{
+                'bg-danger text-white': selectedUser?.role === 'Admin',
+                'bg-indigo text-white': selectedUser?.role !== 'Admin'
+              }">
+              {{ selectedUser?.role }}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-light rounded-bottom-4">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+          <i class="fa fa-times me-1"></i> Close
+        </button>
+        <a
+          [href]="'/dashboard/addUser/' + selectedUser?.id"
+          class="btn btn-primary"
+        >
+          <i class="fa fa-edit me-1"></i> Edit User
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

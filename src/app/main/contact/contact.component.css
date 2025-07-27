@@ -1,0 +1,11 @@
+.d-flex {
+  display: flex;
+}
+
+.ul-inner-contact-form-wrapper {
+  padding: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,160 @@
+<div class="preloader" id="preloader">
+  <div class="loader"></div>
+</div>
+
+
+<div class="ul-sidebar">
+  <!-- header -->
+  <div class="ul-sidebar-header">
+    <div class="ul-sidebar-header-logo">
+      <a href='index.html'>
+        <img src="assets/img/logo.svg" alt="logo" class="logo">
+      </a>
+    </div>
+    <!-- sidebar closer -->
+    <button class="ul-sidebar-closer"><i class="fa-regular fa-xmark"></i></button>
+  </div>
+
+  <div class="ul-sidebar-header-nav-wrapper d-block d-lg-none"></div>
+
+
+  <!-- sidebar footer -->
+  <div class="ul-sidebar-footer">
+    <span class="ul-sidebar-footer-title">Follow us</span>
+
+    <div class="ul-sidebar-footer-social">
+      <a routerLink="/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a routerLink="/"><i class="fa-brands fa-twitter"></i></a>
+      <a routerLink="/"><i class="fa-brands fa-instagram"></i></a>
+      <a routerLink="/"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR SECTION END -->
+
+
+<!-- HEADER SECTION START -->
+<header class="ul-header" [class.ul-inner-header]="!showInnerHeaderClass">
+  <div class="ul-header-bottom to-be-sticky wow animate__slideInDown">
+    <div class="ul-header-bottom-wrapper ul-container">
+      <div class="logo-container">
+        <a class='d-inline-block' routerLink="/"><img src="assets/img/logo.svg" alt="logo" class="logo"></a>
+      </div>
+
+      <!-- header nav -->
+      <div class="ul-header-nav-wrapper">
+        <div class="to-go-to-sidebar-in-mobile">
+          <nav class="ul-header-nav">
+            <a routerLink="/">Home</a>
+            <a routerLink="/about">About</a>
+            <a routerLink="/auction">Auction</a>
+            <a routerLink="/faq">FAQs</a>
+            <a routerLink="/contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- <div class="ul-header-bottom-right">
+        <a routerLink="/auctionVehicle/0"><i class="fa-regular fa-car"></i></a>
+        <a routerLink="/"><i class="fa-regular fa-heart"></i></a>
+        <a routerLink="/login"><i class="fa-regular fa-user"></i></a>
+        <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="fa-regular fa-bars"></i></button>
+      </div> -->
+
+
+      <div class="ul-header-bottom-right">
+        <a routerLink="/auctionVehicle/0"><i class="fa-regular fa-car"></i></a>
+        <a routerLink="/"><i class="fa-regular fa-heart"></i></a>
+
+            <a routerLink="/login"><i class="fa-regular fa-user"></i></a>
+            <a routerLink="/login"><i class="fa-light fa-arrow-right-from-bracket"></i></a>
+
+        <button class="ul-header-sidebar-opener d-lg-none d-inline-flex">
+          <i class="fa-regular fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+
+<router-outlet />
+
+<footer class="ul-footer">
+  <div class="ul-container">
+
+    <div class="ul-footer-top ul-section-spacing">
+      <div class="row row-cols-md-2 row-cols-1 gy-4">
+        <!-- txt -->
+        <div class="col">
+          <div class="ul-footer-top-txt">
+            <span class="ul-section-sub-title anim-txt">Drive into Winning</span>
+            <h2 class="ul-footer-top-title wow animate__fadeInUp">Auction Drive Success Home</h2>
+          </div>
+
+          <div class="ul-footer-form-wrapper">
+            <form action="#" class="ul-footer-form wow animate__fadeInUp">
+              <div class="left">
+                <label for="footer-email">Say Hello</label>
+                <input type="email" name="email" id="footer-email" placeholder="cruz@example.com">
+              </div>
+              <button type="submit" class="ul-btn">Place a bid <i class="fa-regular fa-arrow-up-right"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <!-- img -->
+        <div class="col">
+          <div class="ul-footer-top-cards">
+            <div class="ul-footer-top-card rotated-card card--1"><img src="assets/img/footer-card-1.png"
+                alt="Footer Card Image"></div>
+            <div class="ul-footer-top-card card--2">
+              <img src="assets/img/footer-card-2.png" alt="Footer Card Image">
+              <a routerLink="/" class="ul-footer-top-card-link"><i class="fa-regular fa-arrow-up-right"></i> Place a
+                bid</a>
+            </div>
+            <div class="ul-footer-top-card rotated-card card--3"><img src="assets/img/footer-card-3.png"
+                alt="Footer Card Image"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer middle -->
+    <div class="ul-footer-middle wow animate__fadeInUp">
+      <div class="ul-footer-middle-menu">
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/about">About us</a></li>
+          <li> <a routerLink="/faq">FAQs</a> </li>
+          <li><a routerLink="/auction">Auctions</a></li>
+          <li><a routerLink="/contact">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="ul-footer-middle-socials">
+        <a routerLink="/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a routerLink="/"><i class="fa-brands fa-instagram"></i></a>
+        <a routerLink="/"><i class="fa-brands fa-discord"></i></a>
+      </div>
+    </div>
+
+    <!-- footer bottom -->
+    <div class="ul-footer-bottom wow animate__fadeInUp">
+      <div class="ul-footer-bottom-links">
+        <a href='terms.html'>Terms & Service</a>
+        <a routerLink="/">Privacy Policy</a>
+      </div>
+      <div class="right">
+        <p class="copyright-txt">Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear())
+
+          </script> Nilamex
+        </p>
+        <p>Designed By <a href="https://farhanincode.netlify.app/">M. Farhan Atif</a></p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,122 @@
+<main>
+  <!-- BREADCRUMB SECTION START -->
+  <section class="ul-breadcrumb ul-section-spacing">
+    <div class="ul-container">
+      <div class="ul-breadcrumb-content">
+        <div class="left">
+          <h1 class="ul-breadcrumb-title anim-txt">Auction Grid 02</h1>
+          <div class="ul-breadcrumb-nav wow animate__fadeInUp">
+            <a routerLink="/">Home</a>
+            <span><i class="fa-solid fa-angles-right"></i></span>
+            <span class="current">Auction Grid 02</span>
+          </div>
+        </div>
+
+        <div class="right">
+          <button class="ul-btn-2 p-0 wow animate__fadeInUp">
+            <span class="txt">Scroll Down</span>
+            <i class="fa-light fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- vectors -->
+    <div class="ul-breadcrumb-vectors">
+      <img src="assets/img/breadcrumb-vector-1.svg" alt="vector" class="vector-1 wow animate__fadeInDown">
+      <img src="assets/img/breadcrumb-vector-2.svg" alt="vector" class="vector-2 wow animate__fadeInUp">
+      <img src="assets/img/breadcrumb-vector-3.svg" alt="vector" class="vector-3 wow animate__fadeInRight">
+    </div>
+  </section>
+  <!-- BREADCRUMB SECTION END -->
+
+
+  <!-- AUCTIONS SECTION START -->
+  <section class="ul-inner-auctions ul-section-spacing tab-group">
+    <div class="ul-container">
+      <!-- top search, sort, filter bar -->
+      <div class="ul-inner-auctions-actions-bar">
+        <div class="left">
+          <div class="ul-inner-auctions-search">
+            <input type="search" name="-search" id="ul-inner-auctions-search" placeholder="Search Auctions">
+          </div>
+          <p class="ul-inner-auctions-result-count">Showing 1-12 of 100 Results</p>
+        </div>
+
+        <div class="right">
+          <div class="ul-inner-auctions-sort">
+            <select name="ul-inner-auctions-sort" id="ul-inner-auctions-sort">
+              <option data-placeholder="true">Default sorting</option>
+              <option value="2">Newest</option>
+              <option value="3">Oldest</option>
+              <option value="4">Price: High to Low</option>
+              <option value="5">Price: Low to High</option>
+            </select>
+          </div>
+
+          <div class="ul-inner-auctions-view-mode-tab-navs">
+            <button class="active tab-nav" data-tab="grid-view"><i class="fa-regular fa-grid-2"></i></button>
+            <button class="tab-nav" data-tab="list-view"><i class="fa-regular fa-list-ul"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- tabs -->
+      <div class="tabs-wrapper">
+        <!-- tab 01 / grid view -->
+        <div class="ul-tab active" id="grid-view">
+          <div class="row row-cols-sm-2 row-cols-1 g-4 ul-inner-auctions-2-grid-row">
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+
+            <div class="col position-relative">
+              <app-auction-grid-item></app-auction-grid-item>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- tab 02 / list view -->
+        <div class="ul-tab" id="list-view">
+
+          <app-auction-list-item></app-auction-list-item>
+          <app-auction-list-item></app-auction-list-item>
+          <app-auction-list-item></app-auction-list-item>
+        </div>
+      </div>
+
+      <!-- pagination -->
+      <div class="ul-container">
+        <div class="ul-pagination">
+          <ul>
+            <li><a href="#"><i class="fa-regular fa-angle-left"></i></a></li>
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"><i class="fa-regular fa-angle-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- AUCTIONS SECTION END -->
+</main>

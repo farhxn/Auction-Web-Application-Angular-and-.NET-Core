@@ -45,21 +45,63 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
+            "assets": [{
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/dashboard",
+                "output": "/dashboard"
               }
             ],
             "styles": [
-              "src/styles.css"
+                "node_modules/datatables.net-dt/css/dataTables.dataTables.css",
+              "@angular/material/prebuilt-themes/cyan-orange.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css",
+              "node_modules/filepond/dist/filepond.min.css",
+              "node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css",
+              "src/assets/vendor/bootstrap/bootstrap.min.css",
+              "src/assets/vendor/splide/splide.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css",
+              "src/assets/vendor/animate-wow/animate.min.css",
+              "src/assets/vendor/font_awesome/css/fontawesome.css",
+              "src/assets/vendor/slim-select/slimselect.css",
+              "src/assets/css/style.css",
+              "src/dashboard/assets/css/vendor.min.css",
+              "src/dashboard/assets/css/icons.min.css",
+              "src/dashboard/assets/css/app.min.css"
             ],
-            "scripts": []
+            "scripts": [
+  "node_modules/jquery/dist/jquery.js",
+  "node_modules/datatables.net/js/dataTables.js",
+              "src/assets/vendor/bootstrap/bootstrap.bundle.min.js",
+              "src/assets/vendor/splide/splide.min.js",
+              "src/assets/vendor/splide/splide-extension-auto-scroll.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/animate-wow/wow.min.js",
+              "src/assets/vendor/fslightbox/fslightbox.js",
+              "src/assets/vendor/scrollspy/simple-scrollspy.min.js",
+              "src/assets/vendor/gsap/gsap.min.js",
+              "src/assets/vendor/splittype/index.min.js",
+              "src/assets/vendor/slim-select/slimselect.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/tab.js",
+              "src/assets/js/accordion.js",
+              "src/assets/js/progressbar.js",
+              "src/assets/js/countdown.js"
+
+            ]
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "500kB",
                   "maximumError": "1MB"
@@ -75,7 +117,11 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.development.ts"
+              }]
             }
           },
           "defaultConfiguration": "production"
@@ -103,19 +149,66 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
+            "assets": [{
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
+              }, {
+                "glob": "**/*",
+                "input": "src/dashboard",
+                "output": "/dashboard"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/cyan-orange.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css",
+              "node_modules/filepond/dist/filepond.min.css",
+              "node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css",
+              "src/assets/vendor/bootstrap/bootstrap.min.css",
+              "src/assets/vendor/splide/splide.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css",
+              "src/assets/vendor/animate-wow/animate.min.css",
+              "src/assets/vendor/font_awesome/css/fontawesome.css",
+              "src/assets/vendor/slim-select/slimselect.css",
+              "src/assets/css/style.css",
+              "src/dashboard/assets/css/vendor.min.css",
+              "src/dashboard/assets/css/icons.min.css",
+              "src/dashboard/assets/css/app.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/bootstrap/bootstrap.bundle.min.js",
+              "src/assets/vendor/splide/splide.min.js",
+              "src/assets/vendor/splide/splide-extension-auto-scroll.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/animate-wow/wow.min.js",
+              "src/assets/vendor/fslightbox/fslightbox.js",
+              "src/assets/vendor/scrollspy/simple-scrollspy.min.js",
+              "src/assets/vendor/gsap/gsap.min.js",
+              "src/assets/vendor/splittype/index.min.js",
+              "src/assets/vendor/slim-select/slimselect.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/tab.js",
+              "src/assets/js/accordion.js",
+              "src/assets/js/progressbar.js",
+              "src/assets/js/countdown.js",
+
+              "src/dashboard/assets/js/config.js",
+              "src/dashboard/assets/js/vendor.js",
+              "src/dashboard/assets/js/app.js",
+              "src/dashboard/assets/js/pages/dashboard.js"
+            ]
+
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

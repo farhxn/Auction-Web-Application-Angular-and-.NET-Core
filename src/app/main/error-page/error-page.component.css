@@ -1,0 +1,39 @@
+.ul-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Optional background */
+}
+
+.ul-container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.ul-error-img img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.ul-error-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ul-error-descr {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ul-error-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}

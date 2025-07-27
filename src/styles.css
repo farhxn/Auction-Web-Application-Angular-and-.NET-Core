@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+
+.toast-top-center, .toast-top-right, .toast-top-left,
+.toast-bottom-right, .toast-bottom-left, .toast-bottom-center {
+  z-index: 12000 !important;
+}
+
+
+.toast-top-center, .toast-top-right, .toast-top-left,
+.toast-bottom-right, .toast-bottom-left, .toast-bottom-center {
+  position: fixed;
+}
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

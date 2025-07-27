@@ -1,0 +1,101 @@
+<main>
+  <!-- BREADCRUMB SECTION START -->
+  <section class="ul-breadcrumb ul-section-spacing">
+    <div class="ul-container">
+      <div class="ul-breadcrumb-content">
+        <div class="left">
+          <h1 class="ul-breadcrumb-title anim-txt">Add Vehicle</h1>
+          <div class="ul-breadcrumb-nav wow animate__fadeInUp">
+            <a routerLink="/">Home</a>
+            <span><i class="fa-solid fa-angles-right"></i></span>
+            <span class="current">Add Vehicle</span>
+          </div>
+        </div>
+
+        <div class="right">
+          <button class="ul-btn-2 p-0 wow animate__fadeInUp">
+            <span class="txt">Scroll Down</span>
+            <i class="fa-light fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- vectors -->
+    <div class="ul-breadcrumb-vectors">
+      <img src="assets/img/breadcrumb-vector-1.svg" alt="vector" class="vector-1 wow animate__fadeInDown">
+      <img src="assets/img/breadcrumb-vector-2.svg" alt="vector" class="vector-2 wow animate__fadeInUp">
+      <img src="assets/img/breadcrumb-vector-3.svg" alt="vector" class="vector-3 wow animate__fadeInRight">
+    </div>
+  </section>
+
+  <section class="ul-inner-contact ul-section-spacing mb-5">
+    <div class="ul-container">
+      <div class="row g-0 d-flex align-items-stretch w-100">
+
+        <div class="col-lg-7 d-flex">
+          <img src="assets/img/auth-img.jpg" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;" />
+          <!-- <div class="preview-container mt-3">
+            <div *ngFor="let file of files; let i = index" class="preview-box">
+              <img [src]="file.preview" alt="preview" />
+              <button (click)="onRemove(i)">✕</button>
+            </div>
+          </div> -->
+
+        </div>
+
+        <div class="col-lg-5 d-flex">
+          <div class="ul-inner-contact-form-wrapper w-100">
+            <form class="ul-contact-form ul-inner-contact-form wow animate__fadeInUp">
+              <div class="heading">
+                <span class="sub-title anim-txt">Add Vehicle</span>
+                <span class="title anim-txt">Ready, set, auction!</span>
+              </div>
+
+              <div class="form-group">
+                <ngx-dropzone (change)="onSelect($event)" accept="image/*">
+                  <ngx-dropzone-label>Drag & Drop or Click to Upload</ngx-dropzone-label>
+                </ngx-dropzone>
+
+                <div class="preview-row mt-3">
+                  <div *ngFor="let file of files; let i = index" class="preview-box">
+                    <img [src]="file.preview" alt="preview" />
+                    <button type="button" (click)="onRemove(i)">✕</button>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Name">
+              </div>
+
+              <div class="form-group">
+                <input type="tel" name="phone" placeholder="Phone">
+              </div>
+
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="address" placeholder="Address">
+              </div>
+
+              <div class="form-group">
+                <textarea name="message" placeholder="Write Message"></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="button" (click)="onSubmit()" class="p-0">
+                  <span class="txt justify-content-center">Send Message</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

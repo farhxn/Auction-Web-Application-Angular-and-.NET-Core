@@ -1,0 +1,58 @@
+.d-flex {
+  display: flex;
+}
+
+.ul-inner-contact-form-wrapper {
+  height: auto;
+  min-height: 100%;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+section.ul-inner-contact {
+  display: block;
+  height: auto !important;
+}
+
+
+
+
+.preview-row {
+  display: flex;
+  flex-wrap: nowrap; /* all in one row */
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.preview-box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  flex: 0 0 auto; /* Don't shrink */
+}
+
+.preview-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.preview-box button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}

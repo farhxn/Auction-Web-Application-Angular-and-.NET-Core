@@ -1,0 +1,26 @@
+html, body, app-root {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  position:absolute;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-content {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.page-content {
+  min-height: 100vh;     /* make sure it covers full viewport height */
+  overflow-y: auto;      /* enable vertical scrolling when needed */
+  box-sizing: border-box;
+}
+
+

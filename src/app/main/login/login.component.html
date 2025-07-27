@@ -1,0 +1,128 @@
+ <main>
+   <!-- BREADCRUMB SECTION START -->
+   <section class="ul-breadcrumb ul-section-spacing">
+     <div class="ul-container">
+       <div class="ul-breadcrumb-content">
+         <div class="left">
+           <h1 class="ul-breadcrumb-title anim-txt">Login</h1>
+           <div class="ul-breadcrumb-nav wow animate__fadeInUp">
+             <a routerLink="/" class="text-white">Home</a>
+             <span><i class="fa-solid fa-angles-right"></i></span>
+             <span class="current">Login</span>
+           </div>
+         </div>
+
+         <div class="right">
+           <button class="ul-btn-2 p-0 wow animate__fadeInUp">
+             <span class="txt">Scroll Down</span>
+             <i class="fa-light fa-arrow-down"></i>
+           </button>
+         </div>
+       </div>
+     </div>
+
+     <!-- vectors -->
+     <div class="ul-breadcrumb-vectors">
+       <img src="assets/img/breadcrumb-vector-1.svg" alt="vector" class="vector-1 wow animate__fadeInDown">
+       <img src="assets/img/breadcrumb-vector-2.svg" alt="vector" class="vector-2 wow animate__fadeInUp">
+       <img src="assets/img/breadcrumb-vector-3.svg" alt="vector" class="vector-3 wow animate__fadeInRight">
+     </div>
+   </section>
+   <!-- BREADCRUMB SECTION END -->
+
+
+   <!-- AUTH SECTION START -->
+   <section class="ul-auth ul-section-spacing">
+     <div class="ul-container">
+       <div class="row justify-content-center justify-content-lg-between align-items-center gy-4">
+         <!-- form -->
+         <div class="col-xl-5 col-lg-6 col-md-8">
+           <div class="ul-auth-form-wrapper wow animate__fadeInUp">
+             <h2 class="ul-auth-form-title anim-txt">Login to Your Account</h2>
+             <p class="ul-auth-form-descr">Let’s get started with your 30 days free trial</p>
+
+             <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.submitted]="submitted" class="ul-auth-form">
+               <div>
+                 <div class="form-group">
+                   <input type="text" formControlName="email" placeholder="Email" id="ul-auth-email">
+                   <div class="error-feedback" *ngIf="hasDisplayableError('email')">
+                     <div *ngIf="form.controls.email.hasError('required')">
+                       Please enter your email address.
+                     </div>
+                     <div *ngIf="form.controls.email.hasError('email')">
+                       Please enter a valid email address.
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="form-group ">
+                   <div class="position-relative">
+                     <input [type]="showPassword ? 'text' : 'password'" class="password-input" name="password"
+                       formControlName="password" autocomplete="off" placeholder="Password" id="ul-auth-password">
+                     <span (click)="togglePasswordVisibility()" style="cursor: pointer;" class="password-toggle">
+                       <i class="fa" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+                     </span>
+                   </div>
+                   <div class="error-feedback" *ngIf="hasDisplayableError('password')">
+                     <div *ngIf="form.controls.password.hasError('required')">
+                       Please enter your Password.
+                     </div>
+                   </div>
+                 </div>
+
+               </div>
+
+               <div class="ul-auth-form-actions">
+                 <label for="remember-me" class="ul-checkbox-wrapper">
+                   <input type="checkbox" name="remember-me" id="remember-me" hidden>
+                   <span class="ul-checkbox"><i class="fa-solid fa-check"></i></span>
+                   <span class="ul-checkbox-txt">Remember Me</span>
+                 </label>
+                 <a routerLink="/forgetpassword">Forgot Password?</a>
+               </div>
+
+               <button type="submit" class="ul-auth-form-btn">
+                 <span *ngIf="!loading">Login</span>
+                 <span *ngIf="loading">
+                   <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                   logging In...
+                 </span>
+               </button>
+             </form>
+
+             <div class="ul-auth-other-options">
+               <span class="title">Or login with</span>
+               <ul>
+                 <li><a href="#"><i class="fa-brands fa-google"></i> Google</a></li>
+                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+               </ul>
+             </div>
+
+             <p class="ul-auth-footer"><span>Don't have an account?</span>&nbsp;<a routerLink="/signup">Register Here</a></p>
+           </div>
+         </div>
+
+         <!-- img -->
+         <div class="col-lg-6 col-md-8 d-xxs-none">
+           <div class="ul-auth-img wow animate__fadeInUp">
+             <div class="ul-auth-img-txt">
+               <p>Bids & Auctions Your Premier Destination</p>
+             </div>
+             <img src="assets/img/auth-img.jpg" alt="Image" class="main-img">
+             <div class="ul-auth-img-stat ul-auth-img-txt">
+               <div class="ul-auth-img-stat-imgs">
+                 <img src="assets/img/user-1.jpg" alt="user image">
+                 <img src="assets/img/user-1.jpg" alt="user image">
+                 <img src="assets/img/user-1.jpg" alt="user image">
+                 <img src="assets/img/user-1.jpg" alt="user image">
+                 <div><i class="fa-solid fa-star"></i><span class="txt">4.7</span></div>
+               </div>
+               <p class="ul-auth-img-stat-txt">Join over <span class="colored">25k+</span> Customer</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- AUTH SECTION END -->
+ </main>
