@@ -1,5 +1,5 @@
 export interface User {
-  id: number;
+  id: string;
   email: string;
   emailConfirmed: boolean;
   phoneNumber?: string;
@@ -10,7 +10,7 @@ export interface User {
 
 export class User implements User {
   constructor(
-    public id: number,
+    public id: string,
     public email: string,
     public emailConfirmed: boolean,
     public phoneNumber?: string,

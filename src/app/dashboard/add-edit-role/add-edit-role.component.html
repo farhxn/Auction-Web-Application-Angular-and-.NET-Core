@@ -1,0 +1,45 @@
+<div class="container-xxl">
+  <div class="row">
+
+    <div class="col">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.submitted]="submitted">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">Add Role</h4>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label for="product-name" class="form-label">Role Name</label>
+                  <input type="text" id="product-name" formControlName="name" class="form-control"
+                    placeholder="Role Name">
+                  <div class="error-feedback"
+                    *ngIf="hasDisplayableError('name') && form.controls.name.hasError('required')">
+                    Please enter your Role Name.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="p-3 bg-light mb-3 rounded">
+          <div class="row justify-content-end g-2">
+            <div class="col-lg-2">
+              <button type="submit" class="btn btn-primary w-100">
+                   <span *ngIf="!loading">{{id == 0 ? 'Create' : 'Update'}} Role</span>
+                    <span *ngIf="loading">
+                      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                      {{id == 0 ? 'Creating' : 'Updating'}} Role ...
+                    </span>
+                 </button>
+            </div>
+            <div class="col-lg-2">
+              <a routerLink="/dashboard/rolelist" class="btn btn-outline-secondary w-100">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

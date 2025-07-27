@@ -1,3 +1,3 @@
 export const claimReq = {
-  adminOnly: (c: any) => c.role === 'Admin',
+  adminOnly: (c: any) => c.role === 'admin',
 };

@@ -57,7 +57,7 @@ namespace AuctionWebApp.Controllers
         FullName = registrationModel.FullName
       };
       var result = await userManager.CreateAsync(user, registrationModel.Password);
-      await userManager.AddToRoleAsync(user, "user");
+      await userManager.AddToRoleAsync(user, registrationModel.Role ?? "user");
 
       if (!result.Succeeded)
       {
@@ -266,7 +266,7 @@ namespace AuctionWebApp.Controllers
                               user.PhoneNumberConfirmed,
                               user.FullName,
                               Role = role.Name
-                            }).ToList();
+                            }).OrderByDescending(x => x.Id).ToList();
 
       responseDto.data = usersWithRoles;
       return Ok(responseDto);
@@ -418,7 +418,7 @@ namespace AuctionWebApp.Controllers
     public async Task<IActionResult> RoleList()
     {
       ResponseDto responseDto = new ResponseDto();
-      responseDto.data = dBContext.Roles.ToList();
+      responseDto.data = dBContext.Roles.Select(x=>new {x.Name,x.Id}).OrderByDescending(x => x.Id).ToList();
       return Ok(responseDto);
     }
 
@@ -429,7 +429,7 @@ namespace AuctionWebApp.Controllers
     {
       var responseDto = new ResponseDto();
 
-      var user = await dBContext.Roles.FindAsync(id);
+      var user =  dBContext.Roles.Select(x => new { x.Name, x.Id }).Where(x => x.Id == id).FirstOrDefault();
       if (user == null)
       {
         responseDto.isSuccess = false;
@@ -445,42 +445,75 @@ namespace AuctionWebApp.Controllers
     [Authorize(Roles = "admin")]
     public async Task<IActionResult> AddRole(RoleDto roleDto)
     {
+      ResponseDto responseDto = new ResponseDto();
       if (string.IsNullOrWhiteSpace(roleDto.name))
-        return BadRequest("Role name is required");
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Role name is required";
+        return BadRequest(responseDto);
+      }
 
       var roleExists = await roleManage.RoleExistsAsync(roleDto.name);
       if (roleExists)
-        return Conflict("Role already exists");
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Role already exists";
+        return BadRequest(responseDto);
+      }
 
       var result = await roleManage.CreateAsync(new IdentityRole(roleDto.name));
       if (result.Succeeded)
-        return Ok("Role created successfully");
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Role created successfully";
+        return Ok(responseDto);
+      }
       else
-        return BadRequest(result.Errors);
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Error while saving";
+        responseDto.data = result.Errors;
+        return BadRequest(responseDto);
+      }
     }
 
     [HttpPut("{id}")]
     [Authorize(Roles = "admin")]
     public async Task<IActionResult> EditRole(string id,  RoleDto roleDto)
     {
+      ResponseDto responseDto = new ResponseDto();
       var role = await roleManage.FindByIdAsync(id);
       if (role == null)
-        return NotFound("Role not found");
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Role not found";
+        return NotFound(responseDto);
+      }
 
       if (!string.Equals(role.Name, roleDto.name, StringComparison.OrdinalIgnoreCase))
       {
         var exists = await roleManage.RoleExistsAsync(roleDto.name);
         if (exists)
-          return Conflict("Role name already exists");
+        {
+          responseDto.isSuccess = false;
+          responseDto.message = "Role name already exists";
+          return Conflict(responseDto);
+        }
       }
 
       role.Name = roleDto.name;
       var result = await roleManage.UpdateAsync(role);
 
       if (result.Succeeded)
-        return Ok("Role updated successfully");
-
-      return BadRequest(result.Errors);
+      {
+        responseDto.isSuccess = true;
+        responseDto.message = "Role updated successfully";
+        return Ok(responseDto);
+      }
+      responseDto.isSuccess = false;
+      responseDto.message = "Error while saving role name ";
+      responseDto.data = result.Errors;
+      return BadRequest(responseDto);
     }
 
 
@@ -488,16 +521,28 @@ namespace AuctionWebApp.Controllers
     [Authorize(Roles = "admin")]
     public async Task<IActionResult> DeleteRole(string id)
     {
+      ResponseDto responseDto = new ResponseDto();
+
       var role = await roleManage.FindByIdAsync(id);
       if (role == null)
-        return NotFound("Role not found");
+      {
+        responseDto.isSuccess = false;
+        responseDto.message = "Role not found";
+        return NotFound(responseDto);
+      }
 
       var result = await roleManage.DeleteAsync(role);
 
       if (result.Succeeded)
-        return Ok("Role deleted successfully");
-
-      return BadRequest(result.Errors);
+      {
+        responseDto.isSuccess = true;
+        responseDto.message = "Role deleted successfully";
+        return Ok(responseDto);
+      }
+      responseDto.isSuccess = false;
+      responseDto.message = "Role not found";
+      responseDto.data = result.Errors;
+      return BadRequest(responseDto);
     }
 
     #endregion

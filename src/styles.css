@@ -12,3 +12,18 @@
 
 /* html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+form.submitted input.ng-invalid, form.submitted ng-select.ng-invalid {
+  border-color: red;
+}
+
+form.submitted input.ng-valid,form.submitted ng-select.ng-valid {
+  border-color: green;
+}
+
+.error-feedback {
+  font-size: 0.9rem;
+  color: crimson;
+  margin: 0.3rem !important;
+  margin-top: 0.1rem !important;
+}

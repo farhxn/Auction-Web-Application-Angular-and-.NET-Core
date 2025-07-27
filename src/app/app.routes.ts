@@ -17,6 +17,10 @@ import { ResetPasswordComponent } from './main/reset-password/reset-password.com
 import { authGuard } from './main/shared/auth.guard';
 import { claimReq } from './main/shared/utils/claimReq-utils';
 import { UserListComponent } from './dashboard/user-list/user-list.component';
+import { alreadyAuthGuard } from './main/shared/already-auth.guard';
+import { AddEditUserComponent } from './dashboard/add-edit-user/add-edit-user.component';
+import { RoleListComponent } from './dashboard/role-list/role-list.component';
+import { AddEditRoleComponent } from './dashboard/add-edit-role/add-edit-role.component';
 
 export const routes: Routes = [
   {
@@ -41,21 +45,29 @@ export const routes: Routes = [
         component: ContactComponent,
         data: { title: 'Contact Us' },
       },
-      { path: 'login', component: LoginComponent, data: { title: 'Login' } },
+      {
+        path: 'login',
+        component: LoginComponent,
+        data: { title: 'Login' },
+        canActivate: [alreadyAuthGuard],
+      },
       {
         path: 'forgetpassword',
         component: ForgetComponent,
         data: { title: 'Forgot Password' },
+        canActivate: [alreadyAuthGuard],
       },
       {
         path: 'reset-password',
         component: ResetPasswordComponent,
         data: { title: 'Reset Password' },
+        canActivate: [alreadyAuthGuard],
       },
       {
         path: 'signup',
         component: SignUpComponent,
         data: { title: 'Sign Up' },
+        canActivate: [alreadyAuthGuard],
       },
       {
         path: 'auctionVehicle/:id',
@@ -82,6 +94,21 @@ export const routes: Routes = [
         path: 'userlist',
         component: UserListComponent,
         data: { title: 'User List', claimReq: claimReq.adminOnly },
+      },
+      {
+        path: 'addUser/:id',
+        component: AddEditUserComponent,
+        data: { title: 'Add User' },
+      },
+      {
+        path: 'rolelist',
+        component: RoleListComponent,
+        data: { title: 'Role List', claimReq: claimReq.adminOnly },
+      },
+      {
+        path: 'addRole/:id',
+        component: AddEditRoleComponent,
+        data: { title: 'Add Role' },
       },
     ],
   },

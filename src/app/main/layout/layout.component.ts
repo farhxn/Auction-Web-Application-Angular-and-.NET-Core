@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import {
   NavigationEnd,
   Router,
@@ -9,30 +9,27 @@ import {
 import { filter } from 'rxjs';
 import { AuthServiceService } from '../service/auth-service.service';
 
-
 @Component({
   selector: 'app-layout',
   imports: [RouterOutlet, RouterLink, CommonModule],
   templateUrl: './layout.component.html',
-  styleUrls: [
-    './layout.component.css',
-    '../../../assets/css/style.css'
-  ]
+  styleUrls: ['./layout.component.css', '../../../assets/css/style.css'],
 })
-export class LayoutComponent implements OnInit {
+export class LayoutComponent implements OnInit,AfterViewInit {
   showInnerHeaderClass = false;
-      isLogin = false;
 
-  constructor(private router: Router,private auth:AuthServiceService) {}
+  constructor(private router: Router, public auth: AuthServiceService) {}
 
 
-  checkLogin() {
-    this.isLogin = this.auth.isLoggedIn()
+  onLogout() {
+    this.auth.logout();
+    this.router.navigateByUrl('/login');
   }
 
+  ngAfterViewInit(): void {
+  }
 
   ngOnInit(): void {
-    this.checkLogin();
     this.checkRoute(this.router.url);
 
     this.router.events
@@ -40,11 +37,11 @@ export class LayoutComponent implements OnInit {
       .subscribe((event: NavigationEnd) => {
         this.checkRoute(event.urlAfterRedirects);
       });
-
-
-    }
+  }
 
   private checkRoute(url: string) {
     this.showInnerHeaderClass = url === '/' || url === '';
   }
+
+
 }

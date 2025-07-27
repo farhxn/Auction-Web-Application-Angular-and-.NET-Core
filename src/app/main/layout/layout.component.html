@@ -63,10 +63,28 @@
 
 
       <div class="ul-header-bottom-right">
-        <a routerLink="/auctionVehicle/0"><i class="fa-regular fa-car"></i></a>
-        <a routerLink="/"><i class="fa-regular fa-heart"></i></a>
-        <a routerLink="{{isLogin ? '/account' : '/login'}}"><i class="fa-regular fa-user"></i></a>
-        <a *ngIf="isLogin" routerLink="/logout"><i class="fa-light fa-arrow-right-from-bracket"></i></a>
+        <ng-container *ngIf="auth.isLoggedIn$ | async as isLogin; else loading">
+          <a [routerLink]="isLogin ? '/auctionVehicle/0' : '/login'">
+            <i class="fa-regular fa-car"></i>
+          </a>
+          <a [routerLink]="isLogin ? '/account' : '/login'">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a [routerLink]="isLogin ? '/account' : '/login'">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a *ngIf="isLogin" (click)="onLogout()">
+            <i class="fa-light fa-arrow-right-from-bracket"></i>
+          </a>
+        </ng-container>
+
+        <ng-template #loading>
+          <a routerLink="/login"><i class="fa-regular fa-car"></i></a>
+          <a routerLink="/login"><i class="fa-regular fa-heart"></i></a>
+          <a routerLink="/login"><i class="fa-regular fa-user"></i></a>
+        </ng-template>
+
+
 
         <button class="ul-header-sidebar-opener d-lg-none d-inline-flex">
           <i class="fa-regular fa-bars"></i>

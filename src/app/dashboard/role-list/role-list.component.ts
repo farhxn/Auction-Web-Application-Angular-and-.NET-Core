@@ -1,33 +1,28 @@
-import {
-  AfterViewChecked,
-  AfterViewInit,
-  Component,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
-import { AuthServiceService } from '../../main/service/auth-service.service';
-import { User } from '../shared/model/user';
 import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { Router, RouterLink } from '@angular/router';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
+import { User } from '../shared/model/user';
+import { AuthServiceService } from '../../main/service/auth-service.service';
 import { NotyfService } from '../../shared/notyf.service';
 import Swal from 'sweetalert2';
+import { Role } from '../shared/model/role';
 
 declare var $: any;
 
 @Component({
-  selector: 'app-user-list',
+  selector: 'app-role-list',
   imports: [RouterLink, CommonModule, NgxSkeletonLoaderComponent],
-  templateUrl: './user-list.component.html',
-  styleUrl: './user-list.component.css',
+  templateUrl: './role-list.component.html',
+  styleUrl: './role-list.component.css',
 })
-export class UserListComponent implements OnInit {
-  usersList: User[] = [];
+export class RoleListComponent implements OnInit {
+  roleList: Role[] = [];
   TableLoaded = false;
   skeletonArray = Array(5);
   dataTableInitialized = false;
   selectedUser: any = null;
-renderTable = true;
+  renderTable = true;
 
   constructor(
     private router: Router,
@@ -39,7 +34,8 @@ renderTable = true;
     this.getList();
   }
 
-  openUserModal(user: User) {
+
+  openUserModal(user: Role) {
     this.selectedUser = user;
   }
 
@@ -53,10 +49,10 @@ renderTable = true;
       cancelButtonText: 'Cancel',
     }).then((result) => {
       if (result.isConfirmed) {
-        this.auth.deleteUser(id).subscribe({
+        this.auth.deleteRole(id).subscribe({
           next: () => {
             this.dataTableInitialized = false;
-            this.getList()
+            this.getList();
 
             this.getList();
             Swal.fire(
@@ -64,7 +60,6 @@ renderTable = true;
               `${name}'s account has been deleted.`,
               'success'
             );
-
           },
           error: (err) => {
             Swal.fire(
@@ -80,35 +75,37 @@ renderTable = true;
     });
   }
 
-getList() {
-  this.renderTable = false;
-  if ($.fn.DataTable.isDataTable('#myTable')) {
-    ($('#myTable') as any).DataTable().destroy();
-    this.dataTableInitialized = false;
+  getList() {
+    this.renderTable = false;
+    if ($.fn.DataTable.isDataTable('#myTable')) {
+      ($('#myTable') as any).DataTable().destroy();
+      this.dataTableInitialized = false;
+    }
+
+    this.auth.getAllRoles().subscribe({
+      next: (data: any) => {
+        this.roleList = data.data.map((role: any) => ({
+          ...role,
+          name: role.name.charAt(0).toUpperCase() + role.name.slice(1),
+        }));
+        this.TableLoaded = true;
+
+        setTimeout(() => {
+          this.renderTable = true;
+          setTimeout(() => this.rebuildDataTable(), 100);
+        }, 0);
+      },
+      error: (err) => {
+        this.toast.error('Error fetching roles data');
+        this.TableLoaded = true;
+      },
+    });
   }
-
-  this.auth.getAllUsers().subscribe({
-    next: (data: any) => {
-      this.usersList = data.data as User[];
-      this.TableLoaded = true;
-
-      setTimeout(() => {
-        this.renderTable = true;
-        setTimeout(() => this.rebuildDataTable(), 100);
-      }, 0);
-    },
-    error: (err) => {
-      this.toast.error('Error fetching users data');
-      this.TableLoaded = true;
-    },
-  });
-}
-
 
   rebuildDataTable() {
     if (
-      this.usersList &&
-      this.usersList.length > 0 &&
+      this.roleList &&
+      this.roleList.length > 0 &&
       !this.dataTableInitialized
     ) {
       setTimeout(() => {

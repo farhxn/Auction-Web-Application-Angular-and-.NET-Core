@@ -1,0 +1,102 @@
+<div class="container-xxl">
+  <div class="row">
+
+    <div class="col">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.submitted]="submitted">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">Add User</h4>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="product-name" class="form-label">User Name</label>
+                  <input type="text" id="product-name" formControlName="fullName" class="form-control"
+                    placeholder="User Name">
+                  <div class="error-feedback"
+                    *ngIf="hasDisplayableError('fullName') && form.controls.fullName.hasError('required')">
+                    Please enter your Username.</div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <label for="product-categories" class="form-label">User Role</label>
+                <ng-select class="form-control" [items]="categories" bindLabel="name" bindValue="valueName"
+                  placeholder="Select Role" formControlName="role" [(ngModel)]="selectedCategory" name="category">
+                </ng-select>
+                <div class="error-feedback"
+                  *ngIf="hasDisplayableError('role') && form.controls.role.hasError('required')">
+                  Please select role.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label for="product-brand" class="form-label">Email</label>
+                  <input type="mail" id="product-brand" formControlName="email" class="form-control"
+                    placeholder="example@mail.com">
+                  <div class="error-feedback" *ngIf="hasDisplayableError('email')">
+                    <div *ngIf="form.controls.email.hasError('required')">
+                      Please enter your email address.
+                    </div>
+                    <div *ngIf="form.controls.email.hasError('email')">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label for="product-weight" class="form-label">Password</label>
+                  <div class="form-group ">
+                    <div class="position-relative">
+                      <input [type]="showPassword ? 'text' : 'password'" class="password-input form-control"
+                        name="password" formControlName="password" autocomplete="off" placeholder="Password"
+                        id="ul-auth-password">
+                      <span (click)="togglePasswordVisibility()" style="cursor: pointer;" class="password-toggle">
+                        <i class="fa" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+                      </span>
+                    </div>
+                    <div class="error-feedback" *ngIf="hasDisplayableError('password')">
+                      <ng-container [ngSwitch]="form.controls.password.errors | firstKey">
+                        <div *ngSwitchCase="'required'">
+                          Please enter your Password.
+                        </div>
+                        <div *ngSwitchCase="'minlength'">
+                          Atleast 6 character required.
+                        </div>
+                        <div *ngSwitchCase="'pattern'">
+                          One or more Special Character(s)
+                        </div>
+                      </ng-container>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="p-3 bg-light mb-3 rounded">
+          <div class="row justify-content-end g-2">
+            <div class="col-lg-2">
+              <button type="submit" class="btn btn-primary w-100">
+                   <span *ngIf="!loading">{{id == 0 ? 'Create' : 'Update'}}</span>
+                    <span *ngIf="loading">
+                      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                      {{id == 0 ? 'Creating' : 'Updating'}}...
+                    </span>
+                 User</button>
+            </div>
+            <div class="col-lg-2">
+              <a routerLink="/dashboard/userlist" class="btn btn-outline-secondary w-100">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

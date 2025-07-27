@@ -61,7 +61,8 @@
               }
             ],
             "styles": [
-                "node_modules/datatables.net-dt/css/dataTables.dataTables.css",
+                "node_modules/@ng-select/ng-select/themes/default.theme.css",
+              "node_modules/datatables.net-dt/css/dataTables.dataTables.css",
               "@angular/material/prebuilt-themes/cyan-orange.css",
               "node_modules/ngx-toastr/toastr.css",
               "src/styles.css",
@@ -79,8 +80,8 @@
               "src/dashboard/assets/css/app.min.css"
             ],
             "scripts": [
-  "node_modules/jquery/dist/jquery.js",
-  "node_modules/datatables.net/js/dataTables.js",
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/dataTables.js",
               "src/assets/vendor/bootstrap/bootstrap.bundle.min.js",
               "src/assets/vendor/splide/splide.min.js",
               "src/assets/vendor/splide/splide-extension-auto-scroll.min.js",

@@ -13,9 +13,10 @@
            </div>
            <div>
              <div class="table-responsive">
-               <table class="table align-middle mb-0 table-hover table-centered display" id="myTable">
+               <table class="table align-middle mb-0 table-hover table-centered display" *ngIf="renderTable" id="myTable">
                  <thead class="bg-light-subtle">
                    <tr>
+                     <th>S.No</th>
                      <th>User Name</th>
                      <th>Email</th>
                      <th>Phone Number</th>
@@ -27,14 +28,15 @@
 
                    <ng-container *ngIf="!TableLoaded; else userList">
                      <tr *ngFor="let skel of skeletonArray">
-                       <td colspan="6">
+                       <td colspan="7">
                          <ngx-skeleton-loader appearance="line"></ngx-skeleton-loader>
                        </td>
                      </tr>
                    </ng-container>
 
                    <ng-template #userList>
-                     <tr *ngFor="let user of usersList; let i = index">
+                     <tr  *ngFor="let user of usersList; let i = index">
+                      <td>{{ i + 1 }}</td>
                        <td>
                          <div class="d-flex align-items-center gap-2">
                            <a class="text-dark fw-medium fs-15">{{ user.fullName }}</a>
@@ -74,7 +76,7 @@
                            <a href="/dashboard/addUser/{{ user.id }}" class="btn btn-soft-primary btn-sm">
                              <i class="fa-light fa-pen-to-square align-middle fs-18"></i>
                            </a>
-                           <a href="#!" class="btn btn-soft-danger btn-sm">
+                           <a (click)="confirmDelete(user.id.toString(),user.fullName)" class="btn btn-soft-danger btn-sm">
                              <i class="fa-light fa-trash align-middle fs-18"></i>
                            </a>
                          </div>

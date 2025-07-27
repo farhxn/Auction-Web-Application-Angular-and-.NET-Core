@@ -164,3 +164,4 @@ E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\refint\Au
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.pdb
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.genruntimeconfig.cache
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\ref\AuctionWebApp.dll
+E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.sourcelink.json

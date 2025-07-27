@@ -93,7 +93,6 @@ export class SignUpComponent implements OnInit {
           }
           this.loading = false;
           this.submitted = false;
-          // console.error('Registration failed', error);
         },
       });
     } else {

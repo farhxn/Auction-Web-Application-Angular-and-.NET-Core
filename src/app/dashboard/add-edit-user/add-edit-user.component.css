@@ -1,0 +1,24 @@
+select, .form-control {
+  height: auto !important;
+}
+/* ::ng-deep .ng-dropdown-panel {
+  max-height: 200px !important;
+  overflow-y: auto;
+} */
+
+.position-relative {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 2.5rem; /* Add space for the icon */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  /* color: #aaa; */
+}
