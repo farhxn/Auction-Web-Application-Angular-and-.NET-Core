@@ -4,9 +4,9 @@ import { Router, RouterLink } from '@angular/router';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 import { User } from '../shared/model/user';
 import { AuthServiceService } from '../../main/service/auth-service.service';
-import { NotyfService } from '../../shared/notyf.service';
 import Swal from 'sweetalert2';
 import { Role } from '../shared/model/role';
+import { ToastrService } from 'ngx-toastr';
 
 declare var $: any;
 
@@ -27,7 +27,7 @@ export class RoleListComponent implements OnInit {
   constructor(
     private router: Router,
     private auth: AuthServiceService,
-    private toast: NotyfService
+    private toast: ToastrService
   ) {}
 
   ngOnInit(): void {
@@ -98,6 +98,8 @@ export class RoleListComponent implements OnInit {
       error: (err) => {
         this.toast.error('Error fetching roles data');
         this.TableLoaded = true;
+        console.log('Error fetching roles data:', err);
+
       },
     });
   }

@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment.development';
 import { TOKEN_KEY } from '../shared/constants';
@@ -27,7 +27,9 @@ export class AuthServiceService {
   }
 
   login(form: any) {
-    return this.http.post(`${this.baseUrl}Login`, form);
+    return this.http.post(`${this.baseUrl}Login`, form, {
+      headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+    });
   }
 
   forgetPassword(form: any) {

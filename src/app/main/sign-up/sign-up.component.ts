@@ -12,7 +12,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { FirstKeyPipe } from '../../shared/pipe/first-key.pipe';
 import { AuthServiceService } from '../service/auth-service.service';
-import { NotyfService } from '../../shared/notyf.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-sign-up',
@@ -33,7 +33,7 @@ export class SignUpComponent implements OnInit {
   constructor(
     public formBuilder: FormBuilder,
     private authService: AuthServiceService,
-    private notyf: NotyfService,
+    private toast: ToastrService,
     private route : Router
   ) {}
 
@@ -66,7 +66,7 @@ export class SignUpComponent implements OnInit {
           this.form.reset();
           this.loading = false;
           this.submitted = false;
-          this.notyf.success('🎉 Registered successfully!\n Verify your email.');
+          this.toast.success('🎉 Registered successfully!\n Verify your email.');
           this.route.navigateByUrl('/login');
         },
         error: (error) => {
@@ -75,7 +75,7 @@ export class SignUpComponent implements OnInit {
               const duplicateEmailError = error.error.data.errors.find(
                 (e: any) => e.code === 'DuplicateEmail'
               );
-              this.notyf.error(`❗ ${duplicateEmailError.description}`);
+              this.toast.error(`❗ ${duplicateEmailError.description}`);
             } else if (
               error.error.message ==
               'Please use a valid, non-temporary email address.'
@@ -84,12 +84,12 @@ export class SignUpComponent implements OnInit {
               this.emailInput.nativeElement.value = '';
               // this.form.markAllAsTouched();
 
-              this.notyf.error(
+              this.toast.error(
                 '❗ Please use a valid Email, Temporary email address are not allowed.'
               );
             }
           } else {
-            this.notyf.error('❗ Registration failed. Please try again later.');
+            this.toast.error('❗ Registration failed. Please try again later.');
           }
           this.loading = false;
           this.submitted = false;

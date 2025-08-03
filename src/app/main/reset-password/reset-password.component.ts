@@ -10,7 +10,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { AuthServiceService } from '../service/auth-service.service';
-import { NotyfService } from '../../shared/notyf.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-reset-password',
@@ -30,7 +30,7 @@ export class ResetPasswordComponent implements OnInit {
   constructor(
     public formBuilder: FormBuilder,
     private authService: AuthServiceService,
-    private notyf: NotyfService,
+    private toast: ToastrService,
     private route: Router,
     private activeRoute: ActivatedRoute
   ) {}
@@ -76,18 +76,18 @@ export class ResetPasswordComponent implements OnInit {
       this.authService.resetPassword(this.form.value).subscribe({
         next: (response: any) => {
           this.loading = false;
-          this.notyf.success('✅ Password has been reset successfully.');
-            this.route.navigate(['/login']);
+          this.toast.success('✅ Password has been reset successfully.');
+          this.route.navigate(['/login']);
         },
         error: (error: any) => {
 
           if (error.error.message == '❌ Password reset failed.') {
-            this.notyf.error(
+            this.toast.error(
               'Reset Link Expired.'
             );
             this.route.navigate(['/login']);
           } else {
-            this.notyf.error(error.error.message || 'An error occurred');
+            this.toast.error(error.error.message || 'An error occurred');
           }
           console.log(error);
 

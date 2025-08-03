@@ -10,8 +10,8 @@ import { AuthServiceService } from '../../main/service/auth-service.service';
 import { User } from '../shared/model/user';
 import { CommonModule } from '@angular/common';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
-import { NotyfService } from '../../shared/notyf.service';
 import Swal from 'sweetalert2';
+import { ToastrService } from 'ngx-toastr';
 
 declare var $: any;
 
@@ -32,7 +32,7 @@ renderTable = true;
   constructor(
     private router: Router,
     private auth: AuthServiceService,
-    private toast: NotyfService
+    private toast: ToastrService
   ) {}
 
   ngOnInit(): void {

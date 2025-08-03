@@ -157,7 +157,6 @@ E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticweb
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AuctionWebApp.props
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AuctionWebApp.props
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionW.CA76F9CA.Up2Date
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.dll
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\refint\AuctionWebApp.dll
@@ -165,3 +164,5 @@ E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWe
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.genruntimeconfig.cache
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\ref\AuctionWebApp.dll
 E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\AuctionWebApp.sourcelink.json
+E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Angular\auctionWebsite\AuctionWebApp\AuctionWebApp\bin\Debug\net8.0\AuctionWebApp.staticwebassets.runtime.json

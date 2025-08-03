@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|e:\\angular\\auctionwebsite\\auctionwebapp\\auctionwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|e:\\angular\\auctionwebsite\\auctionwebapp\\auctionwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|e:\\angular\\auctionwebsite\\auctionwebapp\\auctionwebapp\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|e:\\angular\\auctionwebsite\\auctionwebapp\\auctionwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|e:\\angular\\auctionwebsite\\auctionwebapp\\auctionwebapp\\controllers\\auctionvehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8831E0E-C863-4EC2-B974-D7FB6A9FC3F5}|AuctionWebApp\\AuctionWebApp.csproj|solutionrelative:auctionwebapp\\controllers\\auctionvehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,59 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleDto.cs",
-              "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\DTOs\\RoleDto.cs",
-              "RelativeDocumentMoniker": "AuctionWebApp\\DTOs\\RoleDto.cs",
-              "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\DTOs\\RoleDto.cs",
-              "RelativeToolTip": "AuctionWebApp\\DTOs\\RoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T17:12:42.189Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "AuctionWebApp\\Program.cs",
-              "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Program.cs",
-              "RelativeToolTip": "AuctionWebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:21:30.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "AuctionWebApp\\DTOs\\UserDto.cs",
-              "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "AuctionWebApp\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:53:45.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "AuctionWebApp\\appsettings.json",
               "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\appsettings.json",
               "RelativeToolTip": "AuctionWebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-24T16:28:10.569Z"
+              "WhenOpened": "2025-08-03T18:23:24.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "AuctionWebApp\\Program.cs",
+              "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Program.cs",
+              "RelativeToolTip": "AuctionWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T18:23:21.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,9 +62,22 @@
               "RelativeDocumentMoniker": "AuctionWebApp\\Controllers\\UserController.cs",
               "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Controllers\\UserController.cs*",
               "RelativeToolTip": "AuctionWebApp\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAAKgBAAAAAAAAAAAAAK8BAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFQCAAAAAAAAAAAYwGUCAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T15:53:11.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuctionVehicleController.cs",
+              "DocumentMoniker": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Controllers\\AuctionVehicleController.cs",
+              "RelativeDocumentMoniker": "AuctionWebApp\\Controllers\\AuctionVehicleController.cs",
+              "ToolTip": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\Controllers\\AuctionVehicleController.cs",
+              "RelativeToolTip": "AuctionWebApp\\Controllers\\AuctionVehicleController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T12:08:25.011Z",
               "EditorCaption": ""
             }
           ]

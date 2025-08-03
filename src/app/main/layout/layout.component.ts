@@ -8,10 +8,11 @@ import {
 } from '@angular/router';
 import { filter } from 'rxjs';
 import { AuthServiceService } from '../service/auth-service.service';
+import { CurrencySelectorComponent } from "../shared/currency-selector/currency-selector.component";
 
 @Component({
   selector: 'app-layout',
-  imports: [RouterOutlet, RouterLink, CommonModule],
+  imports: [RouterOutlet, RouterLink, CommonModule, CurrencySelectorComponent],
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.css', '../../../assets/css/style.css'],
 })

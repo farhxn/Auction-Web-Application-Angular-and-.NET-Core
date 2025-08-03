@@ -9,7 +9,7 @@ import {
 } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { AuthServiceService } from '../../main/service/auth-service.service';
-import { NotyfService } from '../../shared/notyf.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-add-edit-role',
@@ -35,7 +35,7 @@ export class AddEditRoleComponent implements OnInit {
     private auth: AuthServiceService,
     private route: ActivatedRoute,
     private router: Router,
-    private notyf: NotyfService
+    private toast: ToastrService
   ) {}
 
   ngOnInit(): void {
@@ -74,13 +74,13 @@ export class AddEditRoleComponent implements OnInit {
         this.form.reset();
         this.loading = false;
         this.submitted = false;
-        this.notyf.success('🎉 Role created successfully!');
+        this.toast.success('🎉 Role created successfully!', 'Success');
         this.router.navigateByUrl('/dashboard/rolelist');
         console.log(res);
 
       },
       error: (error) => {
-        this.notyf.error('❗ Role creation failed. Please try again later.');
+        this.toast.error('❗ Role creation failed. Please try again later.', 'Error');
         this.loading = false;
         this.submitted = false;
         console.log(error);
@@ -94,11 +94,11 @@ export class AddEditRoleComponent implements OnInit {
         this.form.reset();
         this.loading = false;
         this.submitted = false;
-        this.notyf.success('🎉 Updated successfully!');
+        this.toast.success('🎉 Updated successfully!', 'Success');
         this.router.navigateByUrl('/dashboard/rolelist');
       },
       error: (error) => {
-        this.notyf.error('❗ Update failed. Please try again later.');
+        this.toast.error('❗ Update failed. Please try again later.', 'Error');
         this.loading = false;
         this.submitted = false;
         console.log(error);

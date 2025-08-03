@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { NotyfService } from '../../shared/notyf.service';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { AuthServiceService } from '../service/auth-service.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-login',
@@ -19,13 +19,14 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private notyf: NotyfService,
+    private toast:ToastrService,
     private routesLink: Router,
     public formBuilder: FormBuilder,
     private authService: AuthServiceService
   ) {}
 
   ngOnInit(): void {
+
     this.form = this.formBuilder.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required]],
@@ -34,7 +35,7 @@ export class LoginComponent implements OnInit {
     this.route.queryParamMap.subscribe(async (params) => {
       const token = params.get('token')!;
       if (token) {
-        this.notyf.success('🎉 Email verified successfully!');
+        this.toast.success('🎉 Email verified successfully!','Congratulations');
         this.routesLink.navigateByUrl('/login');
       }
     });
@@ -48,7 +49,11 @@ export class LoginComponent implements OnInit {
         next: (response: any) => {
           this.loading = false;
           this.authService.saveToken(response.data.token);
-          this.notyf.success('Login successful!');
+          this.toast.success('Login successful!','Congratulations');
+          const userRole = this.authService.getClaims()?.role;
+          if (userRole === 'admin') {
+            window.open('/dashboard/main', '_blank');
+          }
           this.routesLink.navigate(['/']);
         },
         error: (error) => {
@@ -58,11 +63,11 @@ export class LoginComponent implements OnInit {
             error.error.message ==
               'Email is not verified.Verification mail has been send'
           ) {
-            this.notyf.error(
+            this.toast.error(
               'Email is not verified.new verification mail has been sent'
             );
           } else {
-            this.notyf.error('Login failed. Please check your credentials.');
+            this.toast.error('Login failed. Please check your credentials.');
           }
         },
       });

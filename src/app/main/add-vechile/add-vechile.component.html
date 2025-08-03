@@ -46,14 +46,15 @@
 
         <div class="col-lg-5 d-flex">
           <div class="ul-inner-contact-form-wrapper w-100">
-            <form class="ul-contact-form ul-inner-contact-form wow animate__fadeInUp">
+            <form class="ul-contact-form ul-inner-contact-form wow animate__fadeInUp" [class.submitted]="submitted"
+              [formGroup]="form" (ngSubmit)="onSubmit()">
               <div class="heading">
                 <span class="sub-title anim-txt">Add Vehicle</span>
                 <span class="title anim-txt">Ready, set, auction!</span>
               </div>
 
               <div class="form-group">
-                <ngx-dropzone (change)="onSelect($event)" accept="image/*">
+                <ngx-dropzone (change)="onSelect($event)" #fileInput accept="image/*">
                   <ngx-dropzone-label>Drag & Drop or Click to Upload</ngx-dropzone-label>
                 </ngx-dropzone>
 
@@ -63,32 +64,35 @@
                     <button type="button" (click)="onRemove(i)">✕</button>
                   </div>
                 </div>
-
               </div>
 
               <div class="form-group">
-                <input type="text" name="name" placeholder="Name">
+                <input type="text" formControlName="name" name="name" placeholder="Name">
               </div>
 
               <div class="form-group">
-                <input type="tel" name="phone" placeholder="Phone">
+                <input type="date" name="dateEnd" formControlName="dateEnd" placeholder="Date End">
               </div>
 
               <div class="form-group">
-                <input type="email" name="email" placeholder="Email">
+                <input type="number" name="basePrice" formControlName="basePrice" placeholder="Base Price">
               </div>
 
-              <div class="form-group">
-                <input type="text" name="address" placeholder="Address">
-              </div>
 
               <div class="form-group">
-                <textarea name="message" placeholder="Write Message"></textarea>
+                <textarea name="description" formControlName="description" placeholder="Write Description"></textarea>
               </div>
 
               <div class="form-group">
                 <button type="button" (click)="onSubmit()" class="p-0">
-                  <span class="txt justify-content-center">Send Message</span>
+                  <span class="txt justify-content-center">
+
+                    <span *ngIf="!loading">Add</span>
+                    <span *ngIf="loading">
+                      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                      Adding...
+                    </span>&nbsp;Vehicle
+                  </span>
                 </button>
               </div>
             </form>

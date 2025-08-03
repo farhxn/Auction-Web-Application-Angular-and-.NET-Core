@@ -594,15 +594,15 @@ window.initializeAllUI = function() {
     })
 
     // auctions page sort slim select
-    if (document.querySelector("#ul-inner-auctions-sort")) {
-        new SlimSelect({
-            select: '#ul-inner-auctions-sort',
-            settings: {
-                showSearch: false,
-                contentLocation: document.querySelector('.ul-inner-auctions-sort')
-            }
-        })
-    };
+    // if (document.querySelector("#ul-inner-auctions-sort")) {
+    //     new SlimSelect({
+    //         select: '#ul-inner-auctions-sort',
+    //         settings: {
+    //             showSearch: false,
+    //             contentLocation: document.querySelector('.ul-inner-auctions-sort')
+    //         }
+    //     })
+    // };
 
 
     // Auction Details image slider

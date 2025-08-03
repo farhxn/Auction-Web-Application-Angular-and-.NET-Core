@@ -11,6 +11,7 @@ namespace AuctionWebApp.Data
 
     }
     public DbSet<User> users { get; set; }
+    public DbSet<AuctionVehicle> auctionVehicles { get; set; }
 
   }
 }

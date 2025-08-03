@@ -5,6 +5,109 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/AuctionVehicle/getVechileList": {
+      "get": {
+        "tags": [
+          "AuctionVehicle"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AuctionVehicle/getVechileDetial/{id}": {
+      "get": {
+        "tags": [
+          "AuctionVehicle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AuctionVehicle/AddAuctionVechile": {
+      "post": {
+        "tags": [
+          "AuctionVehicle"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "basePrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "dateEnd": {
+                    "type": "string"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "name": {
+                  "style": "form"
+                },
+                "description": {
+                  "style": "form"
+                },
+                "basePrice": {
+                  "style": "form"
+                },
+                "dateEnd": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Currency/GetRates/rates": {
+      "get": {
+        "tags": [
+          "Currency"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User/Register": {
       "post": {
         "tags": [

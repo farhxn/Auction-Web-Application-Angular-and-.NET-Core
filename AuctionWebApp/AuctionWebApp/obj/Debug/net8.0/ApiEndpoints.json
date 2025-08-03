@@ -1,5 +1,77 @@
 [
   {
+    "ContainingType": "AuctionWebApp.Controllers.AuctionVehicleController",
+    "Method": "AddAuctionVechile",
+    "RelativePath": "api/AuctionVehicle/AddAuctionVechile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "basePrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateEnd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuctionWebApp.Controllers.AuctionVehicleController",
+    "Method": "getVechileDetial",
+    "RelativePath": "api/AuctionVehicle/getVechileDetial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuctionWebApp.Controllers.AuctionVehicleController",
+    "Method": "getVechileList",
+    "RelativePath": "api/AuctionVehicle/getVechileList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuctionWebApp.Controllers.CurrencyController",
+    "Method": "GetRates",
+    "RelativePath": "api/Currency/GetRates/rates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AuctionWebApp.Controllers.UserController",
     "Method": "AddRole",
     "RelativePath": "api/User/AddRole",

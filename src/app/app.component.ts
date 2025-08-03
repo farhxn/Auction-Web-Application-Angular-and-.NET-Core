@@ -10,9 +10,7 @@ import { filter, map, mergeMap } from 'rxjs';
 import { ScriptLoaderService } from './shared/script-loader.service';
 import { Notyf } from 'notyf';
 
-
 import 'notyf/notyf.min.css';
-
 
 @Component({
   selector: 'app-root',
@@ -21,9 +19,6 @@ import 'notyf/notyf.min.css';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-
-  
-
   title = 'auctionWebsite';
 
   constructor(
@@ -51,26 +46,20 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-
-
-
-
+    
     this.router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),
         filter((event: NavigationEnd) => !event.url.startsWith('/dashboard'))
       )
       .subscribe(() => {
-        console.log("test");
-
         setTimeout(() => {
-        if (window['initializeAllUI']) {
-          window['initializeAllUI']();
-        }
-      }, 0);
-
-
+          if (window['initializeAllUI']) {
+            window['initializeAllUI']();
+          }
+        }, 0);
       });
+
     this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {

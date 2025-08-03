@@ -166,7 +166,7 @@ namespace AuctionWebApp.Controllers
         var secret = "my-secret-key";
         var verifyToken = GenerateVerificationToken(payload, secret);
 
-        var redirectUrl = $"http://localhost:4200/login?token={Uri.EscapeDataString(verifyToken)}";
+        var redirectUrl = $"https://auctionweb.azurewebsites.net/login?token={Uri.EscapeDataString(verifyToken)}";
         return Redirect(redirectUrl);
 
         //responseDto.data = "✅ Email confirmed successfully. You can now log in.";
@@ -308,7 +308,8 @@ namespace AuctionWebApp.Controllers
 
 
 
-    [Authorize(Roles = "admin")]
+    //[Authorize(Roles = "admin")]
+    [AllowAnonymous]
     [HttpPut("{id}")]
     public async Task<ActionResult<ResponseDto>> EditUser(string id, [FromBody] UserRegistrationModel model, [FromServices] UserManager<User> userManager)
     {
@@ -582,7 +583,7 @@ namespace AuctionWebApp.Controllers
         case 1:
           var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
           var encodedToken = WebUtility.UrlEncode(token);
-          var confirmationLink = $"https://localhost:7158/api/User/ConfirmEmail?userId={user.Id}&token={encodedToken}";
+          var confirmationLink = $"https://auctionapp-dpgjcba2hxd0aygu.uaenorth-01.azurewebsites.net/api/User/ConfirmEmail?userId={user.Id}&token={encodedToken}";
 
           subject = "Confirm Your Email – Welcome to Nilamex!";
           message = $@"
@@ -605,7 +606,7 @@ namespace AuctionWebApp.Controllers
         case 2:
           var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
           var encodedResetToken = WebUtility.UrlEncode(resetToken);
-          var resetLink = $"http://localhost:4200/reset-password?userId={user.Id}&token={encodedResetToken}";
+          var resetLink = $"https://auctionweb.azurewebsites.net/reset-password?userId={user.Id}&token={encodedResetToken}";
 
           subject = "Reset Your Password – Nilamex Support";
           message = $@"

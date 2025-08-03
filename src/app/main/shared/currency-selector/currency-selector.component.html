@@ -1,0 +1,31 @@
+<!-- <select (change)="onCurrencyChange($event)">
+  <option *ngFor="let currency of currencies"
+          [value]="currency.code"
+          [selected]="currency.code === selectedCurrency?.code">
+    {{ currency.flag }} {{ currency.code }} - {{ currency.name }}
+  </option>
+</select> -->
+
+<div class="custom-dropdown-wrapper" (clickOutside)="closeDropdown()">
+  <div class="selected-option" (click)="toggleDropdown()">
+    <span class="flag">
+      <img class="flag-img"
+     [src]="'https://flagsapi.com/' + selectedCurrency?.flag  + '/flat/64.png'"
+     alt="flag" />
+      </span>
+    <span class="label">{{ selectedCurrency?.code }} - {{ selectedCurrency?.name }}</span>
+    <span class="arrow">&#9650;</span> <!-- upward arrow -->
+  </div>
+
+  <ul *ngIf="dropdownOpen" class="dropdown-options">
+    <li *ngFor="let currency of currencies" (click)="onCurrencyChange(currency)">
+      <span class="flag">
+        <img class="flag-img"
+     [src]="'https://flagsapi.com/' + currency.flag  + '/flat/64.png'"
+     alt="flag" />
+      </span>
+      <span class="label">{{ currency.code }} - {{ currency.name }}</span>
+    </li>
+  </ul>
+</div>
+

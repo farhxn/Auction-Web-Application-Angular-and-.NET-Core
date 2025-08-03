@@ -12,7 +12,7 @@ import { AuthServiceService } from '../../main/service/auth-service.service';
 import { CommonModule } from '@angular/common';
 import { FirstKeyPipe } from '../../shared/pipe/first-key.pipe';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { NotyfService } from '../../shared/notyf.service';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -42,7 +42,7 @@ export class AddEditUserComponent implements OnInit {
     private auth: AuthServiceService,
     private route: ActivatedRoute,
     private router: Router,
-    private notyf: NotyfService
+    private toast: ToastrService
   ) {}
 
   ngOnInit(): void {
@@ -109,7 +109,7 @@ export class AddEditUserComponent implements OnInit {
         this.form.reset();
         this.loading = false;
         this.submitted = false;
-        this.notyf.success('🎉 Registered successfully!\n Verify your email.');
+        this.toast.success('🎉 Registered successfully!\n Verify your email.');
         this.router.navigateByUrl('/dashboard/userlist');
       },
       error: (error) => {
@@ -118,17 +118,17 @@ export class AddEditUserComponent implements OnInit {
             const duplicateEmailError = error.error.data.errors.find(
               (e: any) => e.code === 'DuplicateEmail'
             );
-            this.notyf.error(`❗ ${duplicateEmailError.description}`);
+            this.toast.error(`❗ ${duplicateEmailError.description}`);
           } else if (
             error.error.message ==
             'Please use a valid, non-temporary email address.'
           ) {
-            this.notyf.error(
+            this.toast.error(
               '❗ Please use a valid Email, Temporary email address are not allowed.'
             );
           }
         } else {
-          this.notyf.error('❗ Registration failed. Please try again later.');
+          this.toast.error('❗ Registration failed. Please try again later.');
         }
         this.loading = false;
         this.submitted = false;
@@ -143,7 +143,7 @@ export class AddEditUserComponent implements OnInit {
         this.form.reset();
         this.loading = false;
         this.submitted = false;
-        this.notyf.success('🎉 Updated successfully!');
+        this.toast.success('🎉 Updated successfully!', 'Success');
         this.router.navigateByUrl('/dashboard/userlist');
       },
       error: (error) => {
@@ -152,17 +152,17 @@ export class AddEditUserComponent implements OnInit {
             const duplicateEmailError = error.error.data.errors.find(
               (e: any) => e.code === 'DuplicateEmail'
             );
-            this.notyf.error(`❗ ${duplicateEmailError.description}`);
+            this.toast.error(`❗ ${duplicateEmailError.description}`);
           } else if (
             error.error.message ==
             'Please use a valid, non-temporary email address.'
           ) {
-            this.notyf.error(
+            this.toast.error(
               '❗ Please use a valid Email, Temporary email address are not allowed.'
             );
           }
         } else {
-          this.notyf.error('❗ Registration failed. Please try again later.');
+          this.toast.error('❗ Registration failed. Please try again later.', 'Error');
         }
         this.loading = false;
         this.submitted = false;
@@ -174,7 +174,6 @@ export class AddEditUserComponent implements OnInit {
   userDetail() {
     this.auth.getUserDetail(this.id).subscribe({
       next: (res: any) => {
-        console.log(res.data);
         this.form.patchValue({
           fullName: res.data.fullName,
           role: res.data.role,

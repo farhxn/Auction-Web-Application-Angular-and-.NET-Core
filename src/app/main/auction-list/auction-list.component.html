@@ -38,21 +38,23 @@
       <div class="ul-inner-auctions-actions-bar">
         <div class="left">
           <div class="ul-inner-auctions-search">
-            <input type="search" name="-search" id="ul-inner-auctions-search" placeholder="Search Auctions">
+            <input type="search" [(ngModel)]="searchTerm" name="-search" id="ul-inner-auctions-search" placeholder="Search Auctions">
           </div>
           <p class="ul-inner-auctions-result-count">Showing 1-12 of 100 Results</p>
         </div>
 
         <div class="right">
           <div class="ul-inner-auctions-sort">
-            <select name="ul-inner-auctions-sort" id="ul-inner-auctions-sort">
-              <option data-placeholder="true">Default sorting</option>
+            <select (change)="onSortChange($event)" name="ul-inner-auctions-sort" id="ul-inner-auctions-sort">
+              <option value="" data-placeholder="true">Default sorting</option>
               <option value="2">Newest</option>
               <option value="3">Oldest</option>
               <option value="4">Price: High to Low</option>
               <option value="5">Price: Low to High</option>
             </select>
           </div>
+
+
 
           <div class="ul-inner-auctions-view-mode-tab-navs">
             <button class="active tab-nav" data-tab="grid-view"><i class="fa-regular fa-grid-2"></i></button>
@@ -67,30 +69,29 @@
         <div class="ul-tab active" id="grid-view">
           <div class="row row-cols-sm-2 row-cols-1 g-4 ul-inner-auctions-2-grid-row">
 
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
 
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
+              <ng-container *ngIf="isLoading; else auctionCard">
+                <app-grid-skeleton />
+              </ng-container>
 
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
-
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
-
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
+              <ng-template #auctionCard>
+@for(item of convertedList
+       | filterAuctionVehicle : searchTerm()
+       | sortAuctionVehicle : selectedSortOption; track item.id)
+ {
+              <div class="col position-relative">
+                <app-auction-grid-item [item]="item" />
+              </div>
+              }
+              </ng-template>
 
 
-            <div class="col position-relative">
-              <app-auction-grid-item></app-auction-grid-item>
-            </div>
+            <!-- @for(item of convertedList | filterAuctionVehicle : searchTerm(); track item.id ) {
+              <div class="col position-relative">
+                <app-auction-grid-item [item]="item" />
+              </div>
+              } -->
+
 
           </div>
         </div>
@@ -98,9 +99,22 @@
         <!-- tab 02 / list view -->
         <div class="ul-tab" id="list-view">
 
-          <app-auction-list-item></app-auction-list-item>
-          <app-auction-list-item></app-auction-list-item>
-          <app-auction-list-item></app-auction-list-item>
+
+                        <ng-container *ngIf="isLoading; else auctionCard2">
+                <app-grid-skeleton />
+              </ng-container>
+
+              <ng-template #auctionCard2>
+                          @for(item of convertedList | filterAuctionVehicle : searchTerm() | sortAuctionVehicle : selectedSortOption; track item.id) {
+            <app-auction-list-item [item]="item" />
+            }
+              </ng-template>
+
+
+          <!-- @for(item of convertedList | filterAuctionVehicle : searchTerm(); track item.id) {
+            <app-auction-list-item [item]="item" />
+            } -->
+
         </div>
       </div>
 

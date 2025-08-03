@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { NotyfService } from '../../shared/notyf.service';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthServiceService } from '../service/auth-service.service';
 import { CommonModule } from '@angular/common';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-forget',
@@ -18,7 +18,7 @@ export class ForgetComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private notyf: NotyfService,
+    private toast: ToastrService,
     private routesLink: Router,
     public formBuilder: FormBuilder,
     private authService: AuthServiceService
@@ -37,18 +37,18 @@ export class ForgetComponent implements OnInit {
       console.log(this.form.value);
       this.authService.forgetPassword(this.form.value).subscribe({
         next: (res) => {
-          this.notyf.success('Reset link sent to your email');
+          this.toast.success('Reset link sent to your email');
           this.routesLink.navigate(['/login']);
         },
         error: (err) => {
           if (err.error.message === 'Account Not Found') {
-            this.notyf.error('Account not found with this email');
+            this.toast.error('Account not found with this email');
           }
           else if(err.error.message === "Email is not verified.Verification mail has been send") {
-            this.notyf.error('Email is not verified. Verification mail has been sent');
+            this.toast.error('Email is not verified. Verification mail has been sent');
           }
           else {
-            this.notyf.error('Something went wrong, please try again later');
+            this.toast.error('Something went wrong, please try again later');
           }
           console.log(err);
 

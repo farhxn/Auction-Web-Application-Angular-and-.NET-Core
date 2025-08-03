@@ -12,8 +12,10 @@ using AuctionWebApp.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddHttpClient();
+
 builder.Services.AddDbContext<DBContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DevConnections")
+    builder.Configuration.GetConnectionString("prodConnections")
   ));
 
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
@@ -102,15 +104,21 @@ builder.Services.Configure<DataProtectionTokenProviderOptions>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
   app.UseSwagger();
   app.UseSwaggerUI();
-}
+//}
 
-app.UseCors(options => options.WithOrigins("http://localhost:4200").AllowAnyMethod()
-   .AllowAnyHeader()
-   );
+//app.UseCors(options => options.WithOrigins("http://localhost:4200").AllowAnyMethod()
+//   .AllowAnyHeader()
+//   );
+
+app.UseCors(options =>
+    options.SetIsOriginAllowed(origin => true)
+           .AllowAnyMethod()
+           .AllowAnyHeader());
+
 
 app.UseStaticFiles();
 
