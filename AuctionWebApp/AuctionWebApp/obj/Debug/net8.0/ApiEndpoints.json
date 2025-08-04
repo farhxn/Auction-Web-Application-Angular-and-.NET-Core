@@ -28,8 +28,8 @@
         "IsRequired": false
       },
       {
-        "Name": "ImageFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "Name": "imageFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
       }
     ],
@@ -53,12 +53,23 @@
   },
   {
     "ContainingType": "AuctionWebApp.Controllers.AuctionVehicleController",
-    "Method": "getVechileList",
-    "RelativePath": "api/AuctionVehicle/getVechileList",
+    "Method": "GetVehicleList",
+    "RelativePath": "api/AuctionVehicle/GetVehicleList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

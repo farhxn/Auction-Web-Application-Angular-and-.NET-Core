@@ -227,12 +227,15 @@
           <div class="swiper ul-auctions-swiper wow animate__fadeInUp">
             <div class="swiper-wrapper">
               <ng-container *ngIf="isLoading; else auctionCard2">
-                <app-grid-skeleton />
+                <div *ngFor="let skel of skeletonArray">
+                  <app-grid-skeleton />
+                </div>
               </ng-container>
 
               <ng-template #auctionCard2>
                 @for(item of convertedList; track item.id) {
                   <div class="swiper-slide">
+                    &nbsp;
                     <app-auction-grid-item [item]="item" />
                   </div>
                   }
@@ -320,7 +323,10 @@
               <div class="ul-tab active" id="auction-tab-1">
                 <!-- single auction item -->
                 <ng-container *ngIf="isLoading; else auctionCard">
-                  <app-list-skeleton />
+                 <div *ngFor="let skel of skeletonArray">
+<app-list-skeleton />
+                 </div>
+
                 </ng-container>
 
                 <ng-template #auctionCard>
@@ -342,7 +348,9 @@
               <div class="ul-tab" id="auction-tab-2">
 
                 <ng-container *ngIf="isLoading; else auctionCard">
-                  <app-list-skeleton />
+                     <div *ngFor="let skel of skeletonArray">
+<app-list-skeleton />
+                 </div>
                 </ng-container>
 
                 <ng-template #auctionCard>
@@ -358,7 +366,9 @@
               <!-- tab 3 -->
               <div class="ul-tab" id="auction-tab-3">
                 <ng-container *ngIf="isLoading; else auctionCard">
-                  <app-list-skeleton />
+                     <div *ngFor="let skel of skeletonArray">
+<app-list-skeleton />
+                 </div>
                 </ng-container>
 
                 <ng-template #auctionCard>
@@ -373,7 +383,9 @@
               <!-- tab 4 -->
               <div class="ul-tab" id="auction-tab-4">
                 <ng-container *ngIf="isLoading; else auctionCard">
-                  <app-list-skeleton />
+                     <div *ngFor="let skel of skeletonArray">
+<app-list-skeleton />
+                 </div>
                 </ng-container>
 
                 <ng-template #auctionCard>
@@ -388,7 +400,9 @@
               <!-- tab 5 -->
               <div class="ul-tab" id="auction-tab-5">
                 <ng-container *ngIf="isLoading; else auctionCard">
-                  <app-list-skeleton />
+                     <div *ngFor="let skel of skeletonArray">
+<app-list-skeleton />
+                 </div>
                 </ng-container>
 
                 <ng-template #auctionCard>

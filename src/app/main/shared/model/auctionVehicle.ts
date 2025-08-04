@@ -6,7 +6,21 @@ export interface AuctionVehicle {
   basePrice: number;
   dateEnd: string;
   item: string;
-  images: string;
+  images:  string ;
+  bitCount: number;
+  currencySymbol?: string;
+  createdAt: string;
+}
+
+export interface AuctionVehicleDetail {
+  id: number;
+  itemId: string;
+  name: string;
+  description: string;
+  basePrice: number;
+  dateEnd: string;
+  item: string;
+  images:  string[] ;
   bitCount: number;
   currencySymbol?: string;
   createdAt: string;
@@ -24,9 +38,27 @@ export class AuctionVehicle implements AuctionVehicle {
     public images: string,
     public bitCount: number,
     public createdAt: string,
+    public currencySymbol?: string
+  ) {}
+}
+
+
+export class AuctionVehicleDetail implements AuctionVehicleDetail{
+  constructor(
+    public id: number,
+    public itemId: string,
+    public name: string,
+    public description: string,
+    public basePrice: number,
+    public dateEnd: string,
+    public item: string,
+    public images: string[],
+    public bitCount: number,
+    public createdAt: string,
     public currencySymbol?: string,
   ) {}
 }
+
 
 export interface AuctionVehicleAddEditDto {
   id: number;
@@ -35,5 +67,6 @@ export interface AuctionVehicleAddEditDto {
   dateEnd: string;
   item: string;
   basePrice: number;
-  ImageFile? : File;
+  // ImageFile? : File;
+  ImageFiles?: File[];
 }

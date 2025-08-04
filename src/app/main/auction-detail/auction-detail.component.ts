@@ -1,12 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { AuctionGridItemComponent } from '../shared/auction-grid-item/auction-grid-item.component';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { AuctionVehicle } from '../shared/model/auctionVehicle';
+import {
+  AuctionVehicle,
+  AuctionVehicleDetail,
+} from '../shared/model/auctionVehicle';
 import { AuctionVehicleService } from '../service/auction-vehicle.service';
 import { environment } from '../../../environments/environment.development';
 import { CurrencyService } from '../service/currency.service';
 import { map, switchMap } from 'rxjs';
 import { CommonModule } from '@angular/common';
+import Swiper from 'swiper';
+
+let mainSwiper: Swiper;
+let thumbSwiper: Swiper;
 
 @Component({
   selector: 'app-auction-detail',
@@ -16,12 +23,13 @@ import { CommonModule } from '@angular/common';
 })
 export class AuctionDetailComponent implements OnInit {
   list: AuctionVehicle[] = [];
-  AuctionDetail?: AuctionVehicle;
+  AuctionDetail?: AuctionVehicleDetail;
   id = '0';
   imageBaseUrl = environment.imgBaseUrl;
   convertedList: AuctionVehicle[] = [];
   currencySymbol = '$';
   isLoading = true;
+
   countdown = {
     days: '0',
     hours: '0',
@@ -37,7 +45,7 @@ export class AuctionDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id')!;
-    console.log(this.id);
+    // console.log(this.id);
 
     // this.auction.vehicleDetail(this.id).subscribe({
     //   next: (res: any) => {
@@ -72,7 +80,15 @@ export class AuctionDetailComponent implements OnInit {
 
     this.auction.vehicleDetail(this.id).subscribe({
       next: (res: any) => {
-        this.AuctionDetail = res.data as AuctionVehicle;
+        this.AuctionDetail = res.data as AuctionVehicleDetail;
+        if (typeof this.AuctionDetail.images === 'string') {
+          try {
+            this.AuctionDetail.images = JSON.parse(this.AuctionDetail.images);
+          } catch {
+            this.AuctionDetail.images = [];
+          }
+        }
+        console.log(this.AuctionDetail);
 
         this.currencyService
           .getSelectedCurrency()
@@ -96,7 +112,7 @@ export class AuctionDetailComponent implements OnInit {
           .subscribe();
         this.calculateCountdown();
 
-        console.log(this.AuctionDetail);
+        // console.log(this.AuctionDetail);
       },
       error: (err) => {
         console.log(err);
@@ -105,7 +121,7 @@ export class AuctionDetailComponent implements OnInit {
 
     this.auction.vehicleList().subscribe({
       next: (res: any) => {
-        this.list = res.data as AuctionVehicle[];
+        this.list = res.data.vehicles as AuctionVehicle[];
 
         this.currencyService
           .getSelectedCurrency()
@@ -117,7 +133,7 @@ export class AuctionDetailComponent implements OnInit {
                   const rate = res.conversion_rates[currency.code];
 
                   if (rate) {
-                    console.log(rate);
+                    // console.log(rate);
                     this.convertedList = this.list.map((item) => ({
                       ...item,
                       basePrice: item.basePrice * rate,
@@ -139,8 +155,10 @@ export class AuctionDetailComponent implements OnInit {
   }
 
   calculateCountdown() {
+    console.log(this.AuctionDetail!.dateEnd);
+
     const now = new Date().getTime();
-    const end = new Date(this.AuctionDetail!.dateEnd).getTime();
+    const end = new Date(this.AuctionDetail!.dateEnd ?? now).getTime();
     const diff = end - now;
 
     if (diff <= 0) {
@@ -162,7 +180,33 @@ export class AuctionDetailComponent implements OnInit {
 
   get isAuctionActive(): boolean {
     const now = new Date();
-    const end = new Date(this.AuctionDetail!.dateEnd);
+    const end = new Date(this.AuctionDetail?.dateEnd ?? now);
     return end > now;
   }
+
+  shareTo(platform: string) {
+    const pageUrl = window.location.href;
+    const message = `Check out this auction item!\n${pageUrl}`; // ← newline before link
+    const encodedMessage = encodeURIComponent(message);
+    let url = '';
+
+    switch (platform) {
+      case 'facebook':
+        url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          pageUrl
+        )}`;
+        break;
+      case 'whatsapp':
+        url = `https://api.whatsapp.com/send?text=${encodedMessage}`;
+        break;
+      case 'twitter':
+        url = `https://twitter.com/intent/tweet?text=${encodedMessage}`;
+        break;
+    }
+
+    window.open(url, '_blank');
+  }
+
+
+
 }

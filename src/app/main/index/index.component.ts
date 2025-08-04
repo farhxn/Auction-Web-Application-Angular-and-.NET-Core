@@ -31,6 +31,7 @@ export class IndexComponent implements OnInit {
   convertedList: AuctionVehicle[] = [];
   currencySymbol = '$';
   isLoading = true;
+    skeletonArray = Array(6);
 
   constructor(
     private auction: AuctionVehicleService,
@@ -64,7 +65,7 @@ export class IndexComponent implements OnInit {
 
     this.auction.vehicleList().subscribe({
       next: (res: any) => {
-        this.list = res.data as AuctionVehicle[];
+        this.list = res.data.vehicles as AuctionVehicle[];
 
         this.currencyService
           .getSelectedCurrency()

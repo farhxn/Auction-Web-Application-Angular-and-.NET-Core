@@ -1,5 +1,203 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\05abd6c4-61c0-46ee-919c-297c61c59032.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/05abd6c4-61c0-46ee-919c-297c61c59032.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7juvpqr3o</Fingerprint>
+      <Integrity>tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\05abd6c4-61c0-46ee-919c-297c61c59032.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1481cd9f-9154-499a-8843-8766bcb6133e.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/1481cd9f-9154-499a-8843-8766bcb6133e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2pmyx5sw9h</Fingerprint>
+      <Integrity>Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1481cd9f-9154-499a-8843-8766bcb6133e.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/14f39ea8-4547-4de6-9b9b-6a61ad040c50.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>npwghi0hj2</Fingerprint>
+      <Integrity>m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\18190634-4654-493a-b589-a5279fced883.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/18190634-4654-493a-b589-a5279fced883.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y26dta3og1</Fingerprint>
+      <Integrity>CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\18190634-4654-493a-b589-a5279fced883.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1ad73968-90f5-4605-858c-be394dc1b3ba.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/1ad73968-90f5-4605-858c-be394dc1b3ba.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1ad73968-90f5-4605-858c-be394dc1b3ba.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3k9rysp9jy</Fingerprint>
+      <Integrity>I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\25a2e952-34e9-4c7a-bcde-bf87d692d372.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/25a2e952-34e9-4c7a-bcde-bf87d692d372.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h96akou2aj</Fingerprint>
+      <Integrity>y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\25a2e952-34e9-4c7a-bcde-bf87d692d372.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\25f1294c-feb2-4953-a68c-32535b69f6ef.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/25f1294c-feb2-4953-a68c-32535b69f6ef.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c2u6k82nor</Fingerprint>
+      <Integrity>TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\25f1294c-feb2-4953-a68c-32535b69f6ef.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\2891e6a3-8dc1-4966-a855-7492dd46db5c.png'))">
       <SourceType>Package</SourceType>
       <SourceId>AuctionWebApp</SourceId>
@@ -17,6 +215,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\2891e6a3-8dc1-4966-a855-7492dd46db5c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>su1xtutgx2</Fingerprint>
+      <Integrity>XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\314063bc-416d-4625-b49e-041e0d7da471.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/314063bc-416d-4625-b49e-041e0d7da471.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r1ihbqhams</Fingerprint>
+      <Integrity>n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\314063bc-416d-4625-b49e-041e0d7da471.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/356ef2ae-2c18-4c68-a082-f1c31a7e848f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c2u6k82nor</Fingerprint>
+      <Integrity>TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png'))">
       <SourceType>Package</SourceType>
@@ -36,6 +288,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/3d21c266-d4af-4d0e-841c-d6f3287e05e9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3x4hgmthox</Fingerprint>
+      <Integrity>J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png'))">
       <SourceType>Package</SourceType>
       <SourceId>AuctionWebApp</SourceId>
@@ -54,6 +324,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4b7a3809-090c-443f-b6c2-5fafc08a7356.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/4b7a3809-090c-443f-b6c2-5fafc08a7356.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4b7a3809-090c-443f-b6c2-5fafc08a7356.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4e707ff1-60d6-4799-aab2-042b70b0d12e.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/4e707ff1-60d6-4799-aab2-042b70b0d12e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u8x2aursfy</Fingerprint>
+      <Integrity>MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4e707ff1-60d6-4799-aab2-042b70b0d12e.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png'))">
       <SourceType>Package</SourceType>
       <SourceId>AuctionWebApp</SourceId>
@@ -71,6 +377,258 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\760543bd-e581-4e0c-8bcb-001f42c63d09.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/760543bd-e581-4e0c-8bcb-001f42c63d09.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\760543bd-e581-4e0c-8bcb-001f42c63d09.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\7650905e-0741-4f22-9617-24323b721649.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/7650905e-0741-4f22-9617-24323b721649.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\7650905e-0741-4f22-9617-24323b721649.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\819b06ff-eef6-4604-adc6-9701f9bd8428.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/819b06ff-eef6-4604-adc6-9701f9bd8428.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7juvpqr3o</Fingerprint>
+      <Integrity>tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\819b06ff-eef6-4604-adc6-9701f9bd8428.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\885f66b9-acea-4ed4-9fda-0fc23616fe87.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/885f66b9-acea-4ed4-9fda-0fc23616fe87.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k3avx6zqm6</Fingerprint>
+      <Integrity>4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\885f66b9-acea-4ed4-9fda-0fc23616fe87.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/90a1bef3-ba3f-4dbf-8810-0b77674ea893.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2pmyx5sw9h</Fingerprint>
+      <Integrity>Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\964c072e-c394-4565-af56-f08f8352e03e.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/964c072e-c394-4565-af56-f08f8352e03e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\964c072e-c394-4565-af56-f08f8352e03e.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\98e17036-dc81-4d53-b719-e47d3a609df5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/98e17036-dc81-4d53-b719-e47d3a609df5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zfqebjx1s1</Fingerprint>
+      <Integrity>X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\98e17036-dc81-4d53-b719-e47d3a609df5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7juvpqr3o</Fingerprint>
+      <Integrity>tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yvjdfwlw0b</Fingerprint>
+      <Integrity>7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\b37a63af-7373-40e7-bd26-e78d61b7c73f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/b37a63af-7373-40e7-bd26-e78d61b7c73f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2pmyx5sw9h</Fingerprint>
+      <Integrity>Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\b37a63af-7373-40e7-bd26-e78d61b7c73f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\b95eaae5-f307-4c76-b923-4f3224f75bd3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/b95eaae5-f307-4c76-b923-4f3224f75bd3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\b95eaae5-f307-4c76-b923-4f3224f75bd3.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\bbdfcb3f-9fd8-48ca-ade9-f44710011505.png'))">
       <SourceType>Package</SourceType>
@@ -126,6 +684,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\cfa53351-f936-4bfd-90e8-00094419e4da.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/d0ff5470-e807-4a02-b55d-c32f7c5094cd.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sp8sc2zqk3</Fingerprint>
+      <Integrity>4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d15a209c-b37b-4e93-a345-2436037c4b4d.png'))">
       <SourceType>Package</SourceType>
       <SourceId>AuctionWebApp</SourceId>
@@ -143,6 +719,204 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d15a209c-b37b-4e93-a345-2436037c4b4d.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2pmyx5sw9h</Fingerprint>
+      <Integrity>Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/d733ec8c-8f52-4a69-8819-19202bd0a938.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0ek5t0tr8q</Fingerprint>
+      <Integrity>iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\e9712771-9312-4d4b-ab26-a4dfae39d3be.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/e9712771-9312-4d4b-ab26-a4dfae39d3be.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rxgax3c76v</Fingerprint>
+      <Integrity>wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\e9712771-9312-4d4b-ab26-a4dfae39d3be.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j19i7nvg8b</Fingerprint>
+      <Integrity>RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/ef94f126-5c95-4126-8f4a-b055b70ccc9a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>crvo42qcb0</Fingerprint>
+      <Integrity>ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/f0956faa-5e20-40cc-a4c2-9112c0a82dab.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7juvpqr3o</Fingerprint>
+      <Integrity>tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f5e7835c-096e-4b17-ab60-76c130595482.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/f5e7835c-096e-4b17-ab60-76c130595482.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f5e7835c-096e-4b17-ab60-76c130595482.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f6744d79-1101-4bcc-a198-eecaefeb5d08.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/f6744d79-1101-4bcc-a198-eecaefeb5d08.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7juvpqr3o</Fingerprint>
+      <Integrity>tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f6744d79-1101-4bcc-a198-eecaefeb5d08.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f7af0525-1df2-4aa5-945a-5c652ccf0187.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/f7af0525-1df2-4aa5-945a-5c652ccf0187.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\f7af0525-1df2-4aa5-945a-5c652ccf0187.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/faaf7538-7ecf-47f5-8173-35fe09c1baf5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kh8hxd7hoh</Fingerprint>
+      <Integrity>OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\fcf565de-9f36-469f-a52c-69b7cb89558d.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AuctionWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AuctionWebApp</BasePath>
+      <RelativePath>AuctionVehicle/fcf565de-9f36-469f-a52c-69b7cb89558d.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gu26uuyp5u</Fingerprint>
+      <Integrity>GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuctionVehicle\fcf565de-9f36-469f-a52c-69b7cb89558d.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7b212237-416f-4f7c-9aa4-58a7ce0c74fb.png'))">
       <SourceType>Package</SourceType>

@@ -5,4 +5,5 @@ export const environment = {
     'https://auctionapp-dpgjcba2hxd0aygu.uaenorth-01.azurewebsites.net/api/',
   imgBaseUrl:
     'https://auctionapp-dpgjcba2hxd0aygu.uaenorth-01.azurewebsites.net/',
+
 };

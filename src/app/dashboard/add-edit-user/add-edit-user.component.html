@@ -84,12 +84,13 @@
           <div class="row justify-content-end g-2">
             <div class="col-lg-2">
               <button type="submit" class="btn btn-primary w-100">
-                   <span *ngIf="!loading">{{id == 0 ? 'Create' : 'Update'}}</span>
-                    <span *ngIf="loading">
-                      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
-                      {{id == 0 ? 'Creating' : 'Updating'}}...
-                    </span>
-                 User</button>
+                <span
+                  *ngIf="!loading">{{ id == 0 ? 'Create' : 'Update' }}</span>
+                <span *ngIf="loading">
+                  <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                  {{ id == 0 ? 'Creating' : 'Updating' }}...
+                </span>
+                User</button>
             </div>
             <div class="col-lg-2">
               <a routerLink="/dashboard/userlist" class="btn btn-outline-secondary w-100">Cancel</a>

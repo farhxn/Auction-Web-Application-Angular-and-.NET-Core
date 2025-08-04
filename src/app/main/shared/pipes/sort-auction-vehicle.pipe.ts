@@ -3,15 +3,14 @@ import { AuctionVehicle } from '../model/auctionVehicle';
 
 @Pipe({
   name: 'sortAuctionVehicle',
-  pure: false,
+  // pure: false,
 })
 export class SortAuctionVehiclePipe implements PipeTransform {
   transform(items: AuctionVehicle[], sortOption: string): AuctionVehicle[] {
-    console.log('Sorting triggered:', sortOption); // add this for debug
+    // console.log('Sorting triggered:', sortOption); // add this for debug
 
     if (!items || !sortOption) {
-      console.log(items + sortOption);
-
+      // console.log(items + sortOption);
       return items;
     }
 

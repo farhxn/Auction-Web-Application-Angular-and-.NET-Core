@@ -1,24 +1,144 @@
 {
   "Files": [
     {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png"
+    },
+    {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2891e6a3-8dc1-4966-a855-7492dd46db5c.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\2891e6a3-8dc1-4966-a855-7492dd46db5c.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png"
     },
     {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png"
     },
     {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png"
+    },
+    {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png"
     },
     {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png"
     },
     {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png"
+    },
+    {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\964c072e-c394-4565-af56-f08f8352e03e.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\964c072e-c394-4565-af56-f08f8352e03e.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png"
     },
     {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\bbdfcb3f-9fd8-48ca-ade9-f44710011505.png",
@@ -33,12 +153,56 @@
       "PackagePath": "staticwebassets\\AuctionVehicle\\cfa53351-f936-4bfd-90e8-00094419e4da.png"
     },
     {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png"
+    },
+    {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d15a209c-b37b-4e93-a345-2436037c4b4d.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\d15a209c-b37b-4e93-a345-2436037c4b4d.png"
     },
     {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png"
+    },
+    {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png",
       "PackagePath": "staticwebassets\\AuctionVehicle\\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png"
+    },
+    {
+      "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png",
+      "PackagePath": "staticwebassets\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png"
     },
     {
       "Id": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\Product\\0781dd22-59f9-452b-9e99-0debbc301774.jpg",

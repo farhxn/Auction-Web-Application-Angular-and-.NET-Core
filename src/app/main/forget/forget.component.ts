@@ -34,7 +34,7 @@ export class ForgetComponent implements OnInit {
     this.submitted = true;
     if (this.form.valid) {
       this.loading = true;
-      console.log(this.form.value);
+      // console.log(this.form.value);
       this.authService.forgetPassword(this.form.value).subscribe({
         next: (res) => {
           this.toast.success('Reset link sent to your email');

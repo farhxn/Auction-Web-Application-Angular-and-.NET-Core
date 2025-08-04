@@ -40,24 +40,13 @@
           <div class="col">
             <div class="ul-auction-details-imgs">
               <div class="ul-auction-details-img-slider swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper" *ngIf="AuctionDetail?.images && AuctionDetail?.images?.length">
                   <!-- single img -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-img"><img src="{{ imageBaseUrl }}{{ AuctionDetail!.images }}"
-                        alt="Item Image"></div>
+                  <div class="swiper-slide" *ngFor="let img of AuctionDetail?.images">
+                    <div class="ul-auction-details-img">
+                      <img [src]="imageBaseUrl + img" alt="Item Image"></div>
                   </div>
-                  <!-- single img -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-img"><img src="assets/img/a-auction-2.png" alt="Item Image"></div>
-                  </div>
-                  <!-- single img -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-img"><img src="assets/img/a-auction-3.png" alt="Item Image"></div>
-                  </div>
-                  <!-- single img -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-img"><img src="assets/img/a-auction-4.png" alt="Item Image"></div>
-                  </div>
+
                 </div>
               </div>
 
@@ -65,29 +54,20 @@
               <div class="ul-auction-details-thumb-slider swiper">
                 <div class="swiper-wrapper">
                   <!-- single thumb -->
-                  <div class="swiper-slide">
+                  <!-- <div class="swiper-slide" *ngIf="AuctionDetail?.images && AuctionDetail?.images?.length">
                     <div class="ul-auction-details-thumb">
-                      <img src="{{ imageBaseUrl }}{{ AuctionDetail!.images }}" alt="Item Image">
+                      <img src="{{ imageBaseUrl }}{{ AuctionDetail?.images }}" alt="Item Image">
+                    </div>
+                </div> -->
+
+                  <div class="swiper-slide" *ngFor="let img of AuctionDetail?.images">
+                    <div class="ul-auction-details-thumb">
+                      <img [src]="imageBaseUrl + img" alt="Item Image" />
                     </div>
                   </div>
-                  <!-- single thumb -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-thumb">
-                      <img src="assets/img/a-auction-2.png" alt="Item Image">
-                    </div>
-                  </div>
-                  <!-- single thumb -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-thumb">
-                      <img src="assets/img/a-auction-3.png" alt="Item Image">
-                    </div>
-                  </div>
-                  <!-- single thumb -->
-                  <div class="swiper-slide">
-                    <div class="ul-auction-details-thumb">
-                      <img src="assets/img/a-auction-4.png" alt="Item Image">
-                    </div>
-                  </div>
+
+
+
                 </div>
               </div>
             </div>
@@ -98,7 +78,8 @@
             <div class="ul-auction-details-top-txt">
               <div class="ul-auction-details-countdown-wrapper ul-active-auction">
                 <div class="ul-active-auction-countdown-area">
-                  <h4 class="ul-active-auction-countdown-title">This Auction Ends in: {{ AuctionDetail!.dateEnd | date: 'medium' }}</h4>
+                  <h4 class="ul-active-auction-countdown-title">This Auction Ends in:
+                    {{ AuctionDetail?.dateEnd | date: 'medium' }}</h4>
                   <div class="ul-countdown">
                     <div class="ul-countdown-item">
                       <span class="number days">{{ countdown.days }}</span>
@@ -122,25 +103,25 @@
               </div>
 
               <div class="ul-auction-details-top-txt-middle">
-                <h2 class="ul-auction-details-title">{{ AuctionDetail!.name }}</h2>
+                <h2 class="ul-auction-details-title">{{ AuctionDetail?.name }}</h2>
                 <div class="ul-auction">
                   <div class="ul-auction-metas">
                     <span class="ul-auction-meta">
                       <span class="meta-key">Listing ID:</span>
-                      <span class="meta-value">{{ AuctionDetail!.itemId }}</span>
+                      <span class="meta-value">{{ AuctionDetail?.itemId }}</span>
                     </span>
                     <span class="ul-auction-meta">
                       <span class="meta-key">Item#:</span>
-                      <span class="meta-value">{{ AuctionDetail!.item }}</span>
+                      <span class="meta-value">{{ AuctionDetail?.item }}</span>
                     </span>
                   </div>
                 </div>
-                <p class="ul-auction-details-top-descr">{{ AuctionDetail!.description }}</p>
+                <p class="ul-auction-details-top-descr">{{ AuctionDetail?.description }}</p>
                 <div class="ul-auction-footer">
                   <div class="ul-auction-details-current-bid">
                     <span class="title">Current Bid:</span>
-                    <span
-                      class="ul-auction-price">{{ AuctionDetail!.currencySymbol }}{{ AuctionDetail!.basePrice | number: '1.0-0' }}</span>
+                    <span class="ul-auction-price">{{ AuctionDetail?.currencySymbol }}
+                      {{ AuctionDetail?.basePrice ? AuctionDetail!.basePrice + 25 :25 | number: '1.0-0' }}</span>
                   </div>
                   <a class='add-to-wishlist' routerLink="/"><i class="fa-solid fa-star"></i> Add To
                     Wishlist</a>
@@ -151,8 +132,11 @@
                 <div class="ul-auction-details-bid-wrapper">
                   <span class="ul-auction-details-bid-title">Bids Amount</span>
                   <form action="#" class="ul-auction-details-bid-form">
-                    <input type="number" min="{{ AuctionDetail!.basePrice }}" name="bid-amount" id="bid-amount"
-                      value="{{ AuctionDetail!.basePrice + 25 }}" placeholder="00.00">
+                    <input type="number"
+                      min="{{ AuctionDetail?.basePrice ? AuctionDetail!.basePrice + 25 :25 | number: '1.0-0' }}"
+                      name="bid-amount" id="bid-amount"
+                      value="{{ AuctionDetail?.basePrice ? AuctionDetail!.basePrice + 25 :25 | number: '1.0-0' }}"
+                      placeholder="00.00">
                     <button *ngIf="isAuctionActive" type="submit">Place a Bid</button>
                   </form>
                 </div>
@@ -160,9 +144,16 @@
                 <div class="ul-auction-details-share">
                   <span class="ul-auction-details-share-title">Share to: </span>
                   <div class="share-options">
-                    <button><i class="fa-brands fa-facebook-f"></i></button>
-                    <button><i class="fa-brands fa-instagram"></i></button>
-                    <button><i class="fa-brands fa-twitch"></i></button>
+                    <button (click)="shareTo('facebook')">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                    <button (click)="shareTo('twitter')">
+                      <i class="fa-brands fa-twitter"></i> <!-- or fa-twitter if you're not using FontAwesome 6 -->
+                    </button>
+                    <button (click)="shareTo('whatsapp')">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -175,14 +166,13 @@
         <div class="ul-auction-details-tab-navs">
           <button class="tab-nav active" data-tab="description">Description</button>
           <button class="tab-nav" data-tab="auction-history">Auction History</button>
-          <button class="tab-nav" data-tab="reviews">Reviews</button>
           <button class="tab-nav" data-tab="more-uctions">More Auctions</button>
         </div>
 
         <div class="ul-auction-details-tabs-wrapper">
           <!-- tab 01 / description -->
           <div class="ul-tab active" id="description">
-            <p class="ul-auction-details-tab-descr">{{ AuctionDetail!.description }}</p>
+            <p class="ul-auction-details-tab-descr">{{ AuctionDetail?.description }}</p>
           </div>
 
           <!-- tab 02 / auction history -->
@@ -239,61 +229,6 @@
             </div>
           </div>
 
-          <!-- tab 03 / reviews -->
-          <div class="ul-tab" id="reviews">
-            <div class="ul-auction-details-reviews-wrapper">
-              <!-- single review -->
-              <div class="ul-blog-details-review-wrapper">
-                <div class="ul-blog-details-review">
-                  <!-- reviewer image -->
-                  <div class="ul-blog-details-review-reviewer-img">
-                    <img src="assets/img/user-1.jpg" alt="Reviewer Image">
-                  </div>
-
-                  <div class="ul-blog-details-review-txt">
-                    <div class="header">
-                      <div class="left">
-                        <h5 class="review-date">March 20, 2023</h5>
-                        <h4 class="reviewer-name">Leslie Alexander</h4>
-                      </div>
-
-                    </div>
-
-                    <p>Comments serve as a valuable channel for transparency in the bidding process. Share your
-                      experiences, ask questions, or provide insights that can help fellow bidders make informed
-                      decisions.Transparency builds trust,</p>
-
-                    <button class="ul-blog-details-review-reply-btn">Reply <i
-                        class="fa-regular fa-arrow-up-right"></i></button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- single review -->
-              <div class="ul-blog-details-review-wrapper">
-                <div class="ul-blog-details-review">
-                  <!-- reviewer image -->
-                  <div class="ul-blog-details-review-reviewer-img">
-                    <img src="assets/img/testimonial-img.jpg" alt="Reviewer Image">
-                  </div>
-
-                  <div class="ul-blog-details-review-txt">
-                    <div class="header">
-                      <div class="left">
-                        <h5 class="review-date">March 20, 2023</h5>
-                        <h4 class="reviewer-name">Ralph Edwards</h4>
-                      </div>
-                    </div>
-
-                    <p>Many auction platforms allow users to rate and review both items and seller Take advantage of
-                      this feature to provide detailed feedback.</p>
-                    <button class="ul-blog-details-review-reply-btn">Reply <i
-                        class="fa-regular fa-arrow-up-right"></i></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- tab 04 / more -->
           <div class="ul-tab" id="more-uctions">
@@ -301,6 +236,7 @@
 
               @for(item of convertedList; track item.id) {
                 <div class="col position-relative">
+                  &nbsp;
                   <app-auction-grid-item [item]="item" />
                 </div>
                 }

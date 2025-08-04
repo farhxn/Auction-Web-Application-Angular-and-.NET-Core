@@ -56,3 +56,12 @@ section.ul-inner-contact {
   font-size: 12px;
   line-height: 20px;
 }
+
+
+form.submitted input.ng-invalid, form.submitted ng-select.ng-invalid {
+  border-color: red;
+}
+
+form.submitted input.ng-valid,form.submitted ng-select.ng-valid {
+  border-color: green;
+}

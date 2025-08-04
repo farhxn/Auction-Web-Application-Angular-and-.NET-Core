@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgZone, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import {
   ActivatedRoute,
@@ -6,7 +6,7 @@ import {
   Router,
   RouterOutlet,
 } from '@angular/router';
-import { filter, map, mergeMap } from 'rxjs';
+import { filter, map, mergeMap, take } from 'rxjs';
 import { ScriptLoaderService } from './shared/script-loader.service';
 import { Notyf } from 'notyf';
 
@@ -25,7 +25,8 @@ export class AppComponent implements OnInit {
     private router: Router,
     private titleService: Title,
     private activatedRoute: ActivatedRoute,
-    private scriptLoader: ScriptLoaderService
+    private scriptLoader: ScriptLoaderService,
+    private ngZone: NgZone
   ) {
     this.router.events
       .pipe(
@@ -46,19 +47,39 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    
-    this.router.events
-      .pipe(
-        filter((event) => event instanceof NavigationEnd),
-        filter((event: NavigationEnd) => !event.url.startsWith('/dashboard'))
-      )
-      .subscribe(() => {
-        setTimeout(() => {
-          if (window['initializeAllUI']) {
-            window['initializeAllUI']();
+
+    // this.router.events
+    //   .pipe(
+    //     filter((event) => event instanceof NavigationEnd),
+    //     filter((event: NavigationEnd) => !event.url.startsWith('/dashboard'))
+    //   )
+    //   .subscribe(() => {
+    //     setTimeout(() => {
+    //       if (window['initializeAllUI']) {
+    //         window['initializeAllUI']();
+    //       }
+    //     }, 0);
+    //   });
+
+      this.router.events
+    .pipe(
+      filter((event) => event instanceof NavigationEnd),
+      filter((event: NavigationEnd) => !event.url.startsWith('/dashboard'))
+    )
+    .subscribe(() => {
+      this.ngZone.onStable
+        .pipe(take(1)) // Only run once per navigation
+        .subscribe(() => {
+          if (typeof window['initializeAllUI'] === 'function') {
+            try {
+              window['initializeAllUI']();
+            } catch (e) {
+              console.error('initializeAllUI() failed:', e);
+            }
           }
-        }, 0);
-      });
+        });
+    });
+
 
     this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))

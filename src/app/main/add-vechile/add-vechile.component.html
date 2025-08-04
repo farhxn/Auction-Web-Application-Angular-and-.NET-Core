@@ -54,10 +54,15 @@
               </div>
 
               <div class="form-group">
+                <label style="color: black;">Vehicle Images</label>
+
                 <ngx-dropzone (change)="onSelect($event)" #fileInput accept="image/*">
                   <ngx-dropzone-label>Drag & Drop or Click to Upload</ngx-dropzone-label>
                 </ngx-dropzone>
-
+                <div class="error-feedback" *ngIf="imageError">
+                  At least one image is required.
+                </div>
+                
                 <div class="preview-row mt-3">
                   <div *ngFor="let file of files; let i = index" class="preview-box">
                     <img [src]="file.preview" alt="preview" />
@@ -67,20 +72,44 @@
               </div>
 
               <div class="form-group">
-                <input type="text" formControlName="name" name="name" placeholder="Name">
+                <label style="color: black;">Vehicle Make Model</label>
+                <input type="text" formControlName="name" name="name" placeholder="Vechile Make Model">
+                <div class="error-feedback"
+                  *ngIf="hasDisplayableError('name') && form.controls['name'].hasError('required')">
+                  Please enter vehicle title.</div>
               </div>
 
               <div class="form-group">
-                <input type="date" name="dateEnd" formControlName="dateEnd" placeholder="Date End">
+                <label style="color: black;">Auction End Date</label>
+                <input type="date" name="dateEnd" formControlName="dateEnd" [min]="minDate" placeholder="Date End">
+                <div class="error-feedback"
+                  *ngIf="hasDisplayableError('dateEnd') && form.controls['dateEnd'].hasError('required')">
+                  Please enter Auction End Date.</div>
               </div>
 
               <div class="form-group">
-                <input type="number" name="basePrice" formControlName="basePrice" placeholder="Base Price">
+                <label style="color: black;">Base Price (In USD)</label>
+                <input type="number" min="1000" value="1000" name="basePrice" formControlName="basePrice"
+                  placeholder="Base Price">
+                <div class="error-feedback" *ngIf="hasDisplayableError('basePrice')">
+                  <span *ngIf="form.controls['basePrice'].hasError('required')">
+                    Please enter base Price.
+                  </span>
+                  <span *ngIf="form.controls['basePrice'].hasError('min')">
+                    Base price must be at least $1000.
+                  </span>
+
+                </div>
+
               </div>
 
 
-              <div class="form-group">
-                <textarea name="description" formControlName="description" placeholder="Write Description"></textarea>
+              <div class=" form-group">
+                <label style="color: black;">Vehicle Description</label>
+                <textarea name="description" formControlName="description" placeholder="Vehicle Description"></textarea>
+                <div class="error-feedback"
+                  *ngIf="hasDisplayableError('description') && form.controls['description'].hasError('required')">
+                  Please enter vehicle description.</div>
               </div>
 
               <div class="form-group">

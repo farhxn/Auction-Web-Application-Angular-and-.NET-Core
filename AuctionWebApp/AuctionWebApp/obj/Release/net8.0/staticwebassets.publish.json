@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NB0+Al3ZBn7aRkedNEDYAps8BMtze729M+P+l+jPRdo=",
+  "Hash": "2GUmSQTsN5vZFCFLdFCP4wHMrhPo+CbRQmvvKIA7/i0=",
   "Source": "AuctionWebApp",
   "BasePath": "_content/AuctionWebApp",
   "Mode": "Default",
@@ -16,6 +16,237 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/05abd6c4-61c0-46ee-919c-297c61c59032#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7juvpqr3o",
+      "Integrity": "tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/0bf5216c-ef1f-4dc9-b5ef-70de1f564a49#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/1268d5c2-50a8-4b1e-bf00-8297dbd9f920#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/1481cd9f-9154-499a-8843-8766bcb6133e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2pmyx5sw9h",
+      "Integrity": "Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/14f39ea8-4547-4de6-9b9b-6a61ad040c50#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "npwghi0hj2",
+      "Integrity": "m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/18190634-4654-493a-b589-a5279fced883#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y26dta3og1",
+      "Integrity": "CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/1ad73968-90f5-4605-858c-be394dc1b3ba#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/1d5911c8-d870-4bcd-a0ed-1743c5bfe403#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3k9rysp9jy",
+      "Integrity": "I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/25a2e952-34e9-4c7a-bcde-bf87d692d372#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h96akou2aj",
+      "Integrity": "y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/25f1294c-feb2-4953-a68c-32535b69f6ef#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2u6k82nor",
+      "Integrity": "TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png"
+    },
     {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2891e6a3-8dc1-4966-a855-7492dd46db5c.png",
       "SourceId": "AuctionWebApp",
@@ -36,6 +267,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\2891e6a3-8dc1-4966-a855-7492dd46db5c.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/2a59f10d-0e31-4acc-ba9d-cd39b80873e3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "su1xtutgx2",
+      "Integrity": "XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/314063bc-416d-4625-b49e-041e0d7da471#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1ihbqhams",
+      "Integrity": "n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/356ef2ae-2c18-4c68-a082-f1c31a7e848f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2u6k82nor",
+      "Integrity": "TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png"
     },
     {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png",
@@ -59,6 +353,27 @@
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\35d9d83a-3ba6-498a-9331-1ccc6e845f6b.png"
     },
     {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/3d21c266-d4af-4d0e-841c-d6f3287e05e9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3x4hgmthox",
+      "Integrity": "J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png"
+    },
+    {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png",
       "SourceId": "AuctionWebApp",
       "SourceType": "Discovered",
@@ -78,6 +393,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/4b7a3809-090c-443f-b6c2-5fafc08a7356#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/4e707ff1-60d6-4799-aab2-042b70b0d12e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u8x2aursfy",
+      "Integrity": "MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png"
     },
     {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png",
@@ -101,6 +458,153 @@
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\4ec58f8a-b375-4e26-b780-d5b0b1f2a60c.png"
     },
     {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/6886bf8a-ac5b-47d8-aef3-e3b71d7e412e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/760543bd-e581-4e0c-8bcb-001f42c63d09#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/7650905e-0741-4f22-9617-24323b721649#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/819b06ff-eef6-4604-adc6-9701f9bd8428#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7juvpqr3o",
+      "Integrity": "tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/885f66b9-acea-4ed4-9fda-0fc23616fe87#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k3avx6zqm6",
+      "Integrity": "4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/90a1bef3-ba3f-4dbf-8810-0b77674ea893#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2pmyx5sw9h",
+      "Integrity": "Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/92ab8190-ed7b-45fe-8ebf-918dbf12d8b2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png"
+    },
+    {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\964c072e-c394-4565-af56-f08f8352e03e.png",
       "SourceId": "AuctionWebApp",
       "SourceType": "Discovered",
@@ -120,6 +624,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\964c072e-c394-4565-af56-f08f8352e03e.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/98e17036-dc81-4d53-b719-e47d3a609df5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zfqebjx1s1",
+      "Integrity": "X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/a35f9286-8010-4ea3-9dcb-1da2e2f4c57c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/a901ada3-4b99-4d3f-aa42-ec1c88be2c1c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7juvpqr3o",
+      "Integrity": "tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yvjdfwlw0b",
+      "Integrity": "7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/b37a63af-7373-40e7-bd26-e78d61b7c73f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2pmyx5sw9h",
+      "Integrity": "Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/b95eaae5-f307-4c76-b923-4f3224f75bd3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png"
     },
     {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\bbdfcb3f-9fd8-48ca-ade9-f44710011505.png",
@@ -185,6 +815,27 @@
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\cfa53351-f936-4bfd-90e8-00094419e4da.png"
     },
     {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/d0ff5470-e807-4a02-b55d-c32f7c5094cd#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sp8sc2zqk3",
+      "Integrity": "4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png"
+    },
+    {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d15a209c-b37b-4e93-a345-2436037c4b4d.png",
       "SourceId": "AuctionWebApp",
       "SourceType": "Discovered",
@@ -206,6 +857,111 @@
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\d15a209c-b37b-4e93-a345-2436037c4b4d.png"
     },
     {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/d619ab02-c4ad-485d-aff6-76ee3d9c9e16#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2pmyx5sw9h",
+      "Integrity": "Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/d733ec8c-8f52-4a69-8819-19202bd0a938#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ek5t0tr8q",
+      "Integrity": "iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/e9712771-9312-4d4b-ab26-a4dfae39d3be#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rxgax3c76v",
+      "Integrity": "wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/ed85ac83-56fe-4aba-91fc-77fb9d7afe2b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j19i7nvg8b",
+      "Integrity": "RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/ef94f126-5c95-4126-8f4a-b055b70ccc9a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "crvo42qcb0",
+      "Integrity": "ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png"
+    },
+    {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png",
       "SourceId": "AuctionWebApp",
       "SourceType": "Discovered",
@@ -225,6 +981,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AuctionVehicle\\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/f5e7835c-096e-4b17-ab60-76c130595482#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/f6744d79-1101-4bcc-a198-eecaefeb5d08#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7juvpqr3o",
+      "Integrity": "tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/f7af0525-1df2-4aa5-945a-5c652ccf0187#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/faaf7538-7ecf-47f5-8173-35fe09c1baf5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh8hxd7hoh",
+      "Integrity": "OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png"
+    },
+    {
+      "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png",
+      "SourceId": "AuctionWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\",
+      "BasePath": "_content/AuctionWebApp",
+      "RelativePath": "AuctionVehicle/fcf565de-9f36-469f-a52c-69b7cb89558d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu26uuyp5u",
+      "Integrity": "GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png"
     },
     {
       "Identity": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\images\\7b212237-416f-4f7c-9aa4-58a7ce0c74fb.png",
@@ -460,6 +1321,908 @@
   ],
   "Endpoints": [
     {
+      "Route": "AuctionVehicle/05abd6c4-61c0-46ee-919c-297c61c59032.a7juvpqr3o.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7juvpqr3o"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/05abd6c4-61c0-46ee-919c-297c61c59032.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/05abd6c4-61c0-46ee-919c-297c61c59032.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\05abd6c4-61c0-46ee-919c-297c61c59032.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0bf5216c-ef1f-4dc9-b5ef-70de1f564a49.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\0c2cb6fb-b4d7-4e4a-8d7d-3d6ce7a8d041.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1268d5c2-50a8-4b1e-bf00-8297dbd9f920.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:01:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1268d5c2-50a8-4b1e-bf00-8297dbd9f920.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:01:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1481cd9f-9154-499a-8843-8766bcb6133e.2pmyx5sw9h.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pmyx5sw9h"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/1481cd9f-9154-499a-8843-8766bcb6133e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1481cd9f-9154-499a-8843-8766bcb6133e.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1481cd9f-9154-499a-8843-8766bcb6133e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/14f39ea8-4547-4de6-9b9b-6a61ad040c50.npwghi0hj2.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npwghi0hj2"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/14f39ea8-4547-4de6-9b9b-6a61ad040c50.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/14f39ea8-4547-4de6-9b9b-6a61ad040c50.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\14f39ea8-4547-4de6-9b9b-6a61ad040c50.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4KchpYUkOIPIr7HMomf7G8xuv7q0R/vMBaqrlvuUZY="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/18190634-4654-493a-b589-a5279fced883.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/18190634-4654-493a-b589-a5279fced883.y26dta3og1.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\18190634-4654-493a-b589-a5279fced883.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y26dta3og1"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/18190634-4654-493a-b589-a5279fced883.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjVC5AHheC8394AZij5jLQKFEMo/yVHg8VEy2if2RsY="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1ad73968-90f5-4605-858c-be394dc1b3ba.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/1ad73968-90f5-4605-858c-be394dc1b3ba.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1ad73968-90f5-4605-858c-be394dc1b3ba.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1ad73968-90f5-4605-858c-be394dc1b3ba.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1d5911c8-d870-4bcd-a0ed-1743c5bfe403.3k9rysp9jy.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3k9rysp9jy"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\1d5911c8-d870-4bcd-a0ed-1743c5bfe403.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4t4h2xGv6BudH8V8iDFRmcuBgbS6BWLtprJM7KhjEw="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/25a2e952-34e9-4c7a-bcde-bf87d692d372.h96akou2aj.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h96akou2aj"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/25a2e952-34e9-4c7a-bcde-bf87d692d372.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/25a2e952-34e9-4c7a-bcde-bf87d692d372.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25a2e952-34e9-4c7a-bcde-bf87d692d372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y23C155fCWPtcDX8/6TQ0u/14tvl1tbeiGB8u+k7kW4="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/25f1294c-feb2-4953-a68c-32535b69f6ef.c2u6k82nor.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2u6k82nor"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/25f1294c-feb2-4953-a68c-32535b69f6ef.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/25f1294c-feb2-4953-a68c-32535b69f6ef.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\25f1294c-feb2-4953-a68c-32535b69f6ef.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk="
+        }
+      ]
+    },
+    {
       "Route": "AuctionVehicle/2891e6a3-8dc1-4966-a855-7492dd46db5c.2pmyx5sw9h.png",
       "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2891e6a3-8dc1-4966-a855-7492dd46db5c.png",
       "Selectors": [],
@@ -538,6 +2301,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/2a59f10d-0e31-4acc-ba9d-cd39b80873e3.su1xtutgx2.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "su1xtutgx2"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/2a59f10d-0e31-4acc-ba9d-cd39b80873e3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XDMQFN7CpeD8De/fpfj9qUT4c8Tv59CmpiwBkqDduxA="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/314063bc-416d-4625-b49e-041e0d7da471.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/314063bc-416d-4625-b49e-041e0d7da471.r1ihbqhams.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\314063bc-416d-4625-b49e-041e0d7da471.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ihbqhams"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/314063bc-416d-4625-b49e-041e0d7da471.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5jPQilw+qAsvSr/hoibtu7SgKWMolfiy+MyT6+Z72s="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/356ef2ae-2c18-4c68-a082-f1c31a7e848f.c2u6k82nor.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2u6k82nor"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/356ef2ae-2c18-4c68-a082-f1c31a7e848f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/356ef2ae-2c18-4c68-a082-f1c31a7e848f.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\356ef2ae-2c18-4c68-a082-f1c31a7e848f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI57cwWG/BTEDN2ce60Hq+/lFRNvYMfvsEDheNMD4Zk="
         }
       ]
     },
@@ -624,6 +2633,88 @@
       ]
     },
     {
+      "Route": "AuctionVehicle/3d21c266-d4af-4d0e-841c-d6f3287e05e9.3x4hgmthox.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3x4hgmthox"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/3d21c266-d4af-4d0e-841c-d6f3287e05e9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/3d21c266-d4af-4d0e-841c-d6f3287e05e9.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\3d21c266-d4af-4d0e-841c-d6f3287e05e9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI="
+        }
+      ]
+    },
+    {
       "Route": "AuctionVehicle/46f24f10-99f7-4231-97dd-f0bd17c0b8b7.3x4hgmthox.png",
       "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\46f24f10-99f7-4231-97dd-f0bd17c0b8b7.png",
       "Selectors": [],
@@ -702,6 +2793,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-J2vjvCgTRvECQmEKYm2iQzaguFTlk4zY7yNcg1CnVxI="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/4b7a3809-090c-443f-b6c2-5fafc08a7356.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:00:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/4b7a3809-090c-443f-b6c2-5fafc08a7356.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/4b7a3809-090c-443f-b6c2-5fafc08a7356.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4b7a3809-090c-443f-b6c2-5fafc08a7356.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:00:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/4e707ff1-60d6-4799-aab2-042b70b0d12e.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/4e707ff1-60d6-4799-aab2-042b70b0d12e.u8x2aursfy.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\4e707ff1-60d6-4799-aab2-042b70b0d12e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8x2aursfy"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/4e707ff1-60d6-4799-aab2-042b70b0d12e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MrlRSVN86w6z4Duy3W673iCXnC0dAaIh3Ev2svhJBpc="
         }
       ]
     },
@@ -788,6 +3043,580 @@
       ]
     },
     {
+      "Route": "AuctionVehicle/6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\6886bf8a-ac5b-47d8-aef3-e3b71d7e412e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/760543bd-e581-4e0c-8bcb-001f42c63d09.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/760543bd-e581-4e0c-8bcb-001f42c63d09.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/760543bd-e581-4e0c-8bcb-001f42c63d09.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\760543bd-e581-4e0c-8bcb-001f42c63d09.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/7650905e-0741-4f22-9617-24323b721649.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/7650905e-0741-4f22-9617-24323b721649.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/7650905e-0741-4f22-9617-24323b721649.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\7650905e-0741-4f22-9617-24323b721649.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/819b06ff-eef6-4604-adc6-9701f9bd8428.a7juvpqr3o.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7juvpqr3o"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/819b06ff-eef6-4604-adc6-9701f9bd8428.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/819b06ff-eef6-4604-adc6-9701f9bd8428.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\819b06ff-eef6-4604-adc6-9701f9bd8428.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/885f66b9-acea-4ed4-9fda-0fc23616fe87.k3avx6zqm6.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "337396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k3avx6zqm6"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/885f66b9-acea-4ed4-9fda-0fc23616fe87.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/885f66b9-acea-4ed4-9fda-0fc23616fe87.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\885f66b9-acea-4ed4-9fda-0fc23616fe87.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "337396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4I0zhFS6rDYRO1SPWn4J+vc5QAhMqnyjYxKRp24Lm3M="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/90a1bef3-ba3f-4dbf-8810-0b77674ea893.2pmyx5sw9h.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pmyx5sw9h"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/90a1bef3-ba3f-4dbf-8810-0b77674ea893.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/90a1bef3-ba3f-4dbf-8810-0b77674ea893.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\90a1bef3-ba3f-4dbf-8810-0b77674ea893.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\92ab8190-ed7b-45fe-8ebf-918dbf12d8b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
       "Route": "AuctionVehicle/964c072e-c394-4565-af56-f08f8352e03e.kh8hxd7hoh.png",
       "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\964c072e-c394-4565-af56-f08f8352e03e.png",
       "Selectors": [],
@@ -856,6 +3685,498 @@
         {
           "Name": "Last-Modified",
           "Value": "Sun, 03 Aug 2025 18:32:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/98e17036-dc81-4d53-b719-e47d3a609df5.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/98e17036-dc81-4d53-b719-e47d3a609df5.zfqebjx1s1.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\98e17036-dc81-4d53-b719-e47d3a609df5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zfqebjx1s1"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/98e17036-dc81-4d53-b719-e47d3a609df5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X+S9MIwWclRmvf8yz2uBHRI9UdsdsRbtpW4yyvC1fW0="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a35f9286-8010-4ea3-9dcb-1da2e2f4c57c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.a7juvpqr3o.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7juvpqr3o"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\a901ada3-4b99-4d3f-aa42-ec1c88be2c1c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.yvjdfwlw0b.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yvjdfwlw0b"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/ac4ffe49-00bf-4160-bdaf-4d2f38e3aeb0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uQOe/ptSlEVSFhsoimZeALKoxzAFC3V43jsrxMSRAA="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/b37a63af-7373-40e7-bd26-e78d61b7c73f.2pmyx5sw9h.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pmyx5sw9h"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/b37a63af-7373-40e7-bd26-e78d61b7c73f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/b37a63af-7373-40e7-bd26-e78d61b7c73f.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b37a63af-7373-40e7-bd26-e78d61b7c73f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/b95eaae5-f307-4c76-b923-4f3224f75bd3.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:03:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/b95eaae5-f307-4c76-b923-4f3224f75bd3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/b95eaae5-f307-4c76-b923-4f3224f75bd3.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\b95eaae5-f307-4c76-b923-4f3224f75bd3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:03:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1116,6 +4437,88 @@
       ]
     },
     {
+      "Route": "AuctionVehicle/d0ff5470-e807-4a02-b55d-c32f7c5094cd.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "269699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/d0ff5470-e807-4a02-b55d-c32f7c5094cd.sp8sc2zqk3.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d0ff5470-e807-4a02-b55d-c32f7c5094cd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "269699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sp8sc2zqk3"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/d0ff5470-e807-4a02-b55d-c32f7c5094cd.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4GCRv7I+yInY11nZfRkZRx7DwhnZQiiN3BuB+TBYWRA="
+        }
+      ]
+    },
+    {
       "Route": "AuctionVehicle/d15a209c-b37b-4e93-a345-2436037c4b4d.a7juvpqr3o.png",
       "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d15a209c-b37b-4e93-a345-2436037c4b4d.png",
       "Selectors": [],
@@ -1198,6 +4601,416 @@
       ]
     },
     {
+      "Route": "AuctionVehicle/d619ab02-c4ad-485d-aff6-76ee3d9c9e16.2pmyx5sw9h.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pmyx5sw9h"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d619ab02-c4ad-485d-aff6-76ee3d9c9e16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zlwm2BTfpjhSJrp+r07r4DVL2LPP3x946iM2TBjzrpg="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/d733ec8c-8f52-4a69-8819-19202bd0a938.0ek5t0tr8q.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:26:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ek5t0tr8q"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/d733ec8c-8f52-4a69-8819-19202bd0a938.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/d733ec8c-8f52-4a69-8819-19202bd0a938.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\d733ec8c-8f52-4a69-8819-19202bd0a938.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:26:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDzPT2dkj+7tVbPv+1sbTlTfvCh6tPQ5Q2TSak/KfsQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/e9712771-9312-4d4b-ab26-a4dfae39d3be.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/e9712771-9312-4d4b-ab26-a4dfae39d3be.rxgax3c76v.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\e9712771-9312-4d4b-ab26-a4dfae39d3be.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rxgax3c76v"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/e9712771-9312-4d4b-ab26-a4dfae39d3be.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wV4AvahRkP2j6jqCTokdSsT4oVzlHZmd/m+IpXMzIww="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.j19i7nvg8b.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j19i7nvg8b"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ed85ac83-56fe-4aba-91fc-77fb9d7afe2b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:02:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RxEAfrVmW6J/HRVjWL5xr0Hmo9nm2GgybzBP/rG3aa0="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ef94f126-5c95-4126-8f4a-b055b70ccc9a.crvo42qcb0.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crvo42qcb0"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/ef94f126-5c95-4126-8f4a-b055b70ccc9a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/ef94f126-5c95-4126-8f4a-b055b70ccc9a.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\ef94f126-5c95-4126-8f4a-b055b70ccc9a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ON3ky+SouzTj81JACtjTGkwO77WHldKkmz49XjUNuSk="
+        }
+      ]
+    },
+    {
       "Route": "AuctionVehicle/f0956faa-5e20-40cc-a4c2-9112c0a82dab.a7juvpqr3o.png",
       "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f0956faa-5e20-40cc-a4c2-9112c0a82dab.png",
       "Selectors": [],
@@ -1276,6 +5089,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f5e7835c-096e-4b17-ab60-76c130595482.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 11:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/f5e7835c-096e-4b17-ab60-76c130595482.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f5e7835c-096e-4b17-ab60-76c130595482.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f5e7835c-096e-4b17-ab60-76c130595482.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 11:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f6744d79-1101-4bcc-a198-eecaefeb5d08.a7juvpqr3o.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7juvpqr3o"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/f6744d79-1101-4bcc-a198-eecaefeb5d08.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f6744d79-1101-4bcc-a198-eecaefeb5d08.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f6744d79-1101-4bcc-a198-eecaefeb5d08.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tp/1NAdqhiRzUBu6epsigBnapWkf/fobzg+gpKuuLuo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f7af0525-1df2-4aa5-945a-5c652ccf0187.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/f7af0525-1df2-4aa5-945a-5c652ccf0187.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/f7af0525-1df2-4aa5-945a-5c652ccf0187.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\f7af0525-1df2-4aa5-945a-5c652ccf0187.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 12:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/faaf7538-7ecf-47f5-8173-35fe09c1baf5.kh8hxd7hoh.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh8hxd7hoh"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/faaf7538-7ecf-47f5-8173-35fe09c1baf5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/faaf7538-7ecf-47f5-8173-35fe09c1baf5.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\faaf7538-7ecf-47f5-8173-35fe09c1baf5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OAqsinAMQOZ1b+6mrNi42XQJnBgA3BWxjFWWwUb0yYo="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/fcf565de-9f36-469f-a52c-69b7cb89558d.gu26uuyp5u.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu26uuyp5u"
+        },
+        {
+          "Name": "label",
+          "Value": "AuctionVehicle/fcf565de-9f36-469f-a52c-69b7cb89558d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
+        }
+      ]
+    },
+    {
+      "Route": "AuctionVehicle/fcf565de-9f36-469f-a52c-69b7cb89558d.png",
+      "AssetFile": "E:\\Angular\\auctionWebsite\\AuctionWebApp\\AuctionWebApp\\wwwroot\\AuctionVehicle\\fcf565de-9f36-469f-a52c-69b7cb89558d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 15:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GDYK7XlkCWq56hAopuXsBowWANdyvVIb7h3TCNtLEIQ="
         }
       ]
     },

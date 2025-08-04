@@ -4,11 +4,11 @@
     <div class="ul-container">
       <div class="ul-breadcrumb-content">
         <div class="left">
-          <h1 class="ul-breadcrumb-title anim-txt">Auction Grid 02</h1>
+          <h1 class="ul-breadcrumb-title anim-txt">Auction Vehicles</h1>
           <div class="ul-breadcrumb-nav wow animate__fadeInUp">
             <a routerLink="/">Home</a>
             <span><i class="fa-solid fa-angles-right"></i></span>
-            <span class="current">Auction Grid 02</span>
+            <span class="current">Auction Vehicles</span>
           </div>
         </div>
 
@@ -40,7 +40,9 @@
           <div class="ul-inner-auctions-search">
             <input type="search" [(ngModel)]="searchTerm" name="-search" id="ul-inner-auctions-search" placeholder="Search Auctions">
           </div>
-          <p class="ul-inner-auctions-result-count">Showing 1-12 of 100 Results</p>
+          <p class="ul-inner-auctions-result-count">
+           Showing {{ startItem }} - {{ endItem }} of {{ totalItems }} Results
+          </p>
         </div>
 
         <div class="right">
@@ -71,15 +73,20 @@
 
 
               <ng-container *ngIf="isLoading; else auctionCard">
-                <app-grid-skeleton />
+<div *ngFor="let skel of skeletonArray">
+  <div class="col position-relative">
+    <app-grid-skeleton />
+  </div>
+</div>
               </ng-container>
 
               <ng-template #auctionCard>
-@for(item of convertedList
+@for(item of displayedList
        | filterAuctionVehicle : searchTerm()
        | sortAuctionVehicle : selectedSortOption; track item.id)
  {
               <div class="col position-relative">
+                &nbsp;
                 <app-auction-grid-item [item]="item" />
               </div>
               }
@@ -101,7 +108,10 @@
 
 
                         <ng-container *ngIf="isLoading; else auctionCard2">
-                <app-grid-skeleton />
+                          <div *ngFor="let skel of skeletonArray">
+
+                            <app-grid-skeleton />
+                          </div>
               </ng-container>
 
               <ng-template #auctionCard2>
@@ -120,7 +130,7 @@
 
       <!-- pagination -->
       <div class="ul-container">
-        <div class="ul-pagination">
+        <!-- <div class="ul-pagination">
           <ul>
             <li><a href="#"><i class="fa-regular fa-angle-left"></i></a></li>
             <li><a href="#" class="active">1</a></li>
@@ -128,7 +138,42 @@
             <li><a href="#">3</a></li>
             <li><a href="#"><i class="fa-regular fa-angle-right"></i></a></li>
           </ul>
-        </div>
+        </div> -->
+<div class="ul-pagination">
+  <ul>
+
+    <li [class.disabled]="currentPage === 1" *ngIf="currentPage !== 1">
+      <a
+        (click)="currentPage > 1 && goToPage(currentPage - 1)"
+        [style.pointer-events]="currentPage === 1 ? 'none' : 'auto'"
+        class="text-light"
+      >
+        <i class="fa-regular fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- Page Numbers -->
+    <li *ngFor="let page of [].constructor(totalPages); let i = index">
+      <a
+        class="text-light"
+        [class.active]="i + 1 === currentPage"
+        (click)="goToPage(i + 1)"
+        >{{ i + 1 }}</a
+      >
+    </li>
+
+    <li [class.disabled]="currentPage === totalPages" *ngIf="currentPage !== totalPages">
+      <a
+        (click)="currentPage < totalPages && goToPage(currentPage + 1)"
+        [style.pointer-events]="currentPage === totalPages ? 'none' : 'auto'"
+        class="text-light"
+      >
+        <i class="fa-regular fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
       </div>
     </div>
   </section>

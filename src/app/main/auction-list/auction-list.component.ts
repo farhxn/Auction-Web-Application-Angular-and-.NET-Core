@@ -1,4 +1,10 @@
-import { AfterViewInit, ChangeDetectorRef, Component, OnInit, signal } from '@angular/core';
+import {
+  AfterViewInit,
+  ChangeDetectorRef,
+  Component,
+  OnInit,
+  signal,
+} from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { AuctionGridItemComponent } from '../shared/auction-grid-item/auction-grid-item.component';
 import { AuctionListItemComponent } from '../shared/auction-list-item/auction-list-item.component';
@@ -33,12 +39,18 @@ import 'slim-select/styles'; // optional css import method
     'src/styles.css',
   ],
 })
-export class AuctionListComponent implements OnInit,AfterViewInit {
+export class AuctionListComponent implements OnInit, AfterViewInit {
   searchTerm = signal('');
-  selectedSortOption: string = ''; // no function
-
+  selectedSortOption: string = '';
+  skeletonArray = Array(6);
   list: AuctionVehicle[] = [];
   convertedList: AuctionVehicle[] = [];
+  displayedList: AuctionVehicle[] = []; // Currently displayed items
+
+  currentPage: number = 1;
+  itemsPerPage: number = 12;
+  totalItems: number = 0;
+  totalPages: number = 0;
   currencySymbol = '$';
   isLoading = true;
 
@@ -59,37 +71,40 @@ export class AuctionListComponent implements OnInit,AfterViewInit {
     //   },
     // });
 
-    this.auction.vehicleList().subscribe({
-      next: (res: any) => {
-        this.list = res.data as AuctionVehicle[];
+    // this.auction.vehicleList().subscribe({
+    //   next: (res: any) => {
+    //     this.list = res.data as AuctionVehicle[];
 
-        this.currencyService
-          .getSelectedCurrency()
-          .pipe(
-            switchMap((currency) => {
-              this.currencySymbol = currency.symbol;
-              return this.currencyService.getLiveRates().pipe(
-                map((res) => {
-                  const rate = res.conversion_rates[currency.code]; // ✅ Correct
+    //     this.currencyService
+    //       .getSelectedCurrency()
+    //       .pipe(
+    //         switchMap((currency) => {
+    //           this.currencySymbol = currency.symbol;
+    //           return this.currencyService.getLiveRates().pipe(
+    //             map((res) => {
+    //               const rate = res.conversion_rates[currency.code]; // ✅ Correct
 
-                  if (rate) {
-                    this.convertedList = this.list.map((item) => ({
-                      ...item,
-                      basePrice: item.basePrice * rate,
-                      currencySymbol: currency.symbol,
-                    }));
-                  }
-                })
-              );
-            })
-          )
-          .subscribe();
-        this.isLoading = false;
-      },
-      error: (err) => {
-        console.log(err);
-      },
-    });
+    //               if (rate) {
+    //                 this.convertedList = this.list.map((item) => ({
+    //                   ...item,
+    //                   basePrice: item.basePrice * rate,
+    //                   currencySymbol: currency.symbol,
+    //                 }));
+    //               }
+    //             })
+    //           );
+    //         })
+    //       )
+    //       .subscribe();
+    //     this.isLoading = false;
+    //   },
+    //   error: (err) => {
+    //     console.log(err);
+    //   },
+    // });
+
+this.fetchVehicles()
+
   }
 
   ngAfterViewInit(): void {
@@ -102,20 +117,64 @@ export class AuctionListComponent implements OnInit,AfterViewInit {
         select: selectEl,
         settings: {
           showSearch: false,
-
         },
       });
 
-      // 🔁 Listen to change event to sync with Angular
       selectEl.addEventListener('change', (event: Event) => {
         const target = event.target as HTMLSelectElement;
         this.selectedSortOption = target.value;
-
-        // ✅ Trigger Angular change detection manually
         this.cdr.detectChanges();
       });
     }
   }
+
+  fetchVehicles() {
+this.auction.vehicleList(this.currentPage, this.itemsPerPage).subscribe({
+  next: (res: any) => {
+    const result = res.data;
+    this.list = result.vehicles;
+    this.totalItems = result.totalCount;
+    this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);
+
+    // Currency conversion
+    this.currencyService.getSelectedCurrency().pipe(
+      switchMap(currency => {
+        this.currencySymbol = currency.symbol;
+        return this.currencyService.getLiveRates().pipe(
+          map(rateRes => {
+            const rate = rateRes.conversion_rates[currency.code];
+            if (rate) {
+              this.convertedList = this.list.map(item => ({
+                ...item,
+                basePrice: item.basePrice * rate,
+                currencySymbol: currency.symbol
+              }));
+              this.displayedList = this.convertedList;
+              this.isLoading= false
+            }
+          })
+        );
+      })
+    ).subscribe();
+  },
+  error: err => console.error(err)
+});
+  }
+
+  goToPage(page: number) {
+    if (page >= 1 && page <= this.totalPages) {
+      this.currentPage = page;
+      this.fetchVehicles();
+    }
+  }
+
+  get startItem(): number {
+  return (this.currentPage - 1) * this.itemsPerPage + 1;
+}
+
+get endItem(): number {
+  return Math.min(this.currentPage * this.itemsPerPage, this.totalItems);
+}
 
   onSortChange(event: Event) {
     const target = event.target as HTMLSelectElement;

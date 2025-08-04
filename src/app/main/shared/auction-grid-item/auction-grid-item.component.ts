@@ -26,7 +26,6 @@ export class AuctionGridItemComponent implements OnInit {
   imageBaseUrl = environment.imgBaseUrl;
 
   ngOnInit(): void {
-    console.log(this.item());
 
     // this.currencyService.getSelectedCurrency().subscribe((currency) => {
     //   this.currencySymbol = currency.symbol;
